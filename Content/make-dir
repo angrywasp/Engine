@@ -1,0 +1,35 @@
+#!/bin/bash
+
+dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+source $dir/setenv
+
+cd ${CONTENT_SRC_DIR}
+
+export CMD=$1
+path=$2
+
+if [ ! -d ${path} ]; then
+    echo "Directory ${path} does not exist"
+    exit 1
+fi
+
+makefiles=($(find -L ${path} -type d))
+
+for i in ${makefiles[@]}; do 
+    sf="$i/.make"
+    if [ -f ${sf} ]; then
+        export OUTDIR_REL="${i}"
+        export OUTDIR_ABS="${CONTENT_BIN_DIR}/${OUTDIR_REL}"
+        export INDIR_ABS="${CONTENT_SRC_DIR}/${OUTDIR_REL}"
+        export SCRIPTFILE="${CONTENT_SRC_DIR}/${sf}"
+        source $SCRIPTFILE
+        if [[ "$(declare -Ff "$CMD")" ]]; then
+            echo ${grn}${INDIR_ABS}${clr}
+            $CMD
+            echo ${cyan}Done${clr}
+            echo ""
+            unset -f $CMD				
+        fi
+    fi
+done

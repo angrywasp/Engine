@@ -1,0 +1,4 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="../../../External/AngryWasp.Build/AngryWasp.Build.Library.targets" />
+    <Import Project="../../../Engine.targets" />
+</Project>

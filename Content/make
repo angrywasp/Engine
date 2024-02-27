@@ -1,0 +1,13 @@
+#!/bin/bash
+
+reset
+
+dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+${dir}/make-dir $1 Scripts
+
+${dir}/make-dir $1 Engine
+${dir}/make-dir $1 DemoContent
+${dir}/make-dir $1 Emulator
+
+${dir}/make-dir $1 Macros

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- SpeedTree Texture Packer -->
+<SpeedTreeTexturePacker Shader="WaspEngine.fx">
+	<Texture0 Suffix="_albedo" Type="FullTexture" MipGenerationFlag="AlphaIsOpacity" />
+	<Texture1 Suffix="_normal" Type="FullTexture" MipGenerationFlag="RgbIsNormal" />
+	<Texture2 Suffix="_pbr" Type="FullTexture" />
+</SpeedTreeTexturePacker>

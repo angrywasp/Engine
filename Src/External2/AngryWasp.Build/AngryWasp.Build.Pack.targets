@@ -1,0 +1,17 @@
+<Project>
+    <PropertyGroup>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>$(PackageId)</Title>
+        <Version>$(PackageVersion)</Version>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <IncludeSymbols>true</IncludeSymbols>
+        <DebugSymbols>true</DebugSymbols>
+        <EmbedAllSources>true</EmbedAllSources>
+        <DebugType>portable</DebugType>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <IncludeSource>true</IncludeSource>
+    </PropertyGroup>
+    <ItemGroup>
+        <None Include="$(SolutionDir)..\LICENSE" Pack="true" PackagePath=""/>
+    </ItemGroup>
+</Project>

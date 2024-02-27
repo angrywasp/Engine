@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="../../External/AngryWasp.Build/AngryWasp.Build.Library.targets" />
+    <Import Project="../../Engine.targets" />
+    <ItemGroup>
+        <ProjectReference Include="../Engine.Core/Engine.Core.csproj" />
+        <ProjectReference Include="../../MonoGame/MonoGame.Framework/MonoGame.Framework.csproj" />
+        <ProjectReference Include="../../External/Bepu2/BepuPhysics/BepuPhysics.csproj" />
+        <ProjectReference Include="../../External/Bepu2/BepuUtilities/BepuUtilities.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="AngryWasp.Helpers" Version="3.0.16" />
+        <PackageReference Include="AngryWasp.Logger" Version="3.0.1" />
+    </ItemGroup>
+</Project>

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../../External/AngryWasp.Build/AngryWasp.Build.Library.targets" />
+  <Import Project="../../Engine.targets" />
+  <ItemGroup>
+    <ProjectReference Include="../../MonoGame/MonoGame.Framework/MonoGame.Framework.csproj" />
+    <ProjectReference Include="../../External/Bepu2/BepuPhysics/BepuPhysics.csproj" />
+    <ProjectReference Include="../../External/Bepu2/BepuUtilities/BepuUtilities.csproj" />
+    <ProjectReference Include="../../External/SharpGLTF/src/SharpGLTF.Core/SharpGLTF.Core.csproj" />
+    <ProjectReference Include="../../External/lidgren-network-gen3/Lidgren.Network/Lidgren.Network.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.8.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SkiaSharp" Version="2.88.7" />
+    <PackageReference Include="SkiaSharp.Svg" Version="1.60.0" />
+    <PackageReference Condition=" '$(RuntimeIdentifier)' == 'linux-x64'" Include="SkiaSharp.NativeAssets.Linux.NoDependencies" Version="2.88.7" />
+    <PackageReference Include="AngryWasp.Helpers" Version="3.0.16" />
+    <PackageReference Include="AngryWasp.Logger" Version="3.0.1" />
+    <PackageReference Include="AngryWasp.Random" Version="1.0.2" />
+    <PackageReference Include="AngryWasp.Math" Version="1.0.1" />
+    <PackageReference Include="Microsoft.Toolkit.HighPerformance" Version="7.1.2" />
+  </ItemGroup>
+</Project>

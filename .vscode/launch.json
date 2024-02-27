@@ -1,0 +1,358 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Editor",
+            "type": "coreclr",
+            "request": "launch",
+            "windows": {
+                "program": "${workspaceFolder}/Bin/Binaries/Engine.Editor.exe"
+            },
+            "linux": {
+                "program": "${workspaceFolder}/Bin/Binaries/Engine.Editor"
+            },
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "preLaunchTask": "build-debug",
+            "args": [
+                "--root", "${workspaceRoot}/Bin"
+            ]
+        },
+        {
+            "name": "Editor (Load asset)",
+            "type": "coreclr",
+            "request": "launch",
+            "windows": {
+                "program": "${workspaceFolder}/Bin/Binaries/Engine.Editor.exe"
+            },
+            "linux": {
+                "program": "${workspaceFolder}/Bin/Binaries/Engine.Editor"
+            },
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "preLaunchTask": "build-debug",
+            "env": {
+                "DOTNET_PerfMapEnabled": "1",
+                "DOTNET_EnableEventLog": "1",
+                "DOTNET_EnableWriteXorExecute": "0"
+            },
+            "args": [
+                "--root", "${workspaceRoot}/Bin",
+                //"--asset", "DemoContent/Entities/Robot/Meshes/Robot.mesh"
+                "--asset", "DemoContent/Entities/Talon/Talon.type"
+                //"--asset", "DemoContent/Maps/Corridor/Corner.type"
+                //"--asset", "DemoContent/Entities/BoxGroup/BoxGroup.type"
+                //"--asset", "DemoContent/Maps/Corridor.map"
+                //"--asset", "Engine/Renderer/Meshes/Cube.mesh"
+            ]
+        },
+        {
+            "name": "Demo",
+            "type": "coreclr",
+            "request": "launch",
+            "windows": {
+                "program": "${workspaceFolder}/Bin/Binaries/GameDemo.exe"
+            },
+            "linux": {
+                "program": "${workspaceFolder}/Bin/Binaries/GameDemo"
+            },
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "preLaunchTask": "build-debug",
+            "env": {
+                "DOTNET_PerfMapEnabled": "1",
+                "DOTNET_EnableEventLog": "1",
+                "DOTNET_EnableWriteXorExecute": "0"
+            },
+            "args": [
+                "--root", "${workspaceRoot}/Bin"
+            ]
+        },
+        {
+            "name": "NES Emulator",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceRoot}/Bin/Binaries/NesEmulator",
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "preLaunchTask": "build-debug"
+        },
+        {
+            "name": "Atari Emulator",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceRoot}/Bin/Binaries/AtariEmulator",
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "preLaunchTask": "build-debug"
+        },
+        {
+            "name": "C64 Emulator",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceRoot}/Bin/Binaries/C64Emulator",
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "preLaunchTask": "build-debug"
+        },
+        {
+            "name": "Macro Processor",
+            "type": "coreclr",
+            "request": "launch",
+            "windows": {
+                "program": "${workspaceRoot}/Bin/Binaries/MacroProcessor.exe"
+            },
+            "osx": {
+                "program": "${workspaceRoot}/Bin/Binaries/MacroProcessor"
+            },
+            "linux": {
+                "program": "${workspaceRoot}/Bin/Binaries/MacroProcessor"
+            },
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "preLaunchTask": "build-debug",
+            "args": [
+                "${workspaceRoot}/Bin",
+                "${workspaceRoot}/Bin/Content/Macros/CreateViperScout.cs"
+            ]
+        },
+        {
+            "name": "Font Processor",
+            "type": "coreclr",
+            "request": "launch",
+            "windows": {
+                "program": "${workspaceFolder}/Bin/Binaries/FontProcessor.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/Bin/Binaries/FontProcessor"
+            },
+            "linux": {
+                "program": "${workspaceFolder}/Bin/Binaries/FontProcessor"
+            },
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "preLaunchTask": "build-debug",
+            "args": [
+            "--family", "${workspaceRoot}/Content/Engine/Fonts/ProFontWindows.ttf", "--output", "${workspaceFolder}/test.fontpkg",
+            "--numbers", "--lower","--upper", "--symbols", "--space", "2",
+            "--sizes", "72"
+            ]
+        },
+        {
+            "name": "Mesh Processor",
+            "type": "coreclr",
+            "request": "launch",
+            "windows": {
+                "program": "${workspaceFolder}/Bin/Binaries/MeshProcessor.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/Bin/Binaries/MeshProcessor"
+            },
+            "linux": {
+                "program": "${workspaceFolder}/Bin/Binaries/MeshProcessor"
+            },
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "preLaunchTask": "build-debug",
+            "args": [
+                "--input", "${workspaceRoot}/Content/Engine/Renderer/Meshes/LightMeshes/LightCone.glb",
+                "--root", "${workspaceRoot}/Bin",
+                "--meshOutput", "m"
+                //"--materialOutput", "m",
+                //"--textureOutput", "m",
+                //"--mipmaps"
+            ],
+        },
+        {
+            "name": "Heightmap Processor",
+            "type": "coreclr",
+            "request": "launch",
+            "windows": {
+                "program": "${workspaceFolder}/Src/Tools/Processors/HeightmapProcessor/bin/Debug/net6.0/win-x64/HeightmapProcessor.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/Src/Tools/Processors/HeightmapProcessor/bin/Debug/net6.0/osx-arm64/HeightmapProcessor"
+            },
+            "linux": {
+                "program": "${workspaceFolder}/Src/Tools/Processors/HeightmapProcessor/bin/Debug/net6.0/linux-x64/HeightmapProcessor"
+            },
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "preLaunchTask": "build-debug",
+            "args": [
+                "${workspaceRoot}/Content/DemoContent/Maps/Terrains/Heightmap1_1025.png",
+                "${workspaceRoot}/Bin/Content/DemoContent/Maps/Terrains/Heightmap1_1025.terrain",
+                "-v", "75.0", "-m", "10", "-e", "0"
+            ]
+        },
+        {
+            "name": "Sound Effect Processor",
+            "type": "coreclr",
+            "request": "launch",
+            "windows": {
+                "program": "${workspaceRoot}/Bin/Binaries/SoundEffectProcessor.exe"
+            },
+            "osx": {
+                "program": "${workspaceRoot}/Bin/Binaries/SoundEffectProcessor"
+            },
+            "linux": {
+                "program": "${workspaceRoot}/Bin/Binaries/SoundEffectProcessor"
+            },
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "preLaunchTask": "build-debug",
+            "args": [
+                "${workspaceRoot}/Content/DemoContent/SoundEffects/Classical/Classical-16bit.wav",
+                "${workspaceRoot}/Bin/Content/DemoContent/SoundEffects/Classical/Classical-16bit.sound",
+                "-c", "1"
+            ]
+        },
+        {
+            "name": "Texture Processor",
+            "type": "coreclr",
+            "request": "launch",
+            "windows": {
+                "program": "${workspaceRoot}/Bin/Binaries/TextureProcessor.exe"
+            },
+            "osx": {
+                "program": "${workspaceRoot}/Bin/Binaries/TextureProcessor"
+            },
+            "linux": {
+                "program": "${workspaceRoot}/Bin/Binaries/TextureProcessor"
+            },
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "preLaunchTask": "build-debug",
+            "args": [
+                "--input", "${workspaceFolder}/Content/DemoContent/Textures/Unigine/Unigine01.png",
+                "--output", "${workspaceRoot}/Bin/Content/DemoContent/Textures/Unigine/Unigine01.texture",
+                "--mipmaps"
+            ]
+        },
+        {
+            "name": "TextureCube Processor",
+            "type": "coreclr",
+            "request": "launch",
+            "windows": {
+                "program": "${workspaceRoot}/Bin/Binaries/TextureCubeProcessor.exe"
+            },
+            "osx": {
+                "program": "${workspaceRoot}/Bin/Binaries/TextureCubeProcessor"
+            },
+            "linux": {
+                "program": "${workspaceRoot}/Bin/Binaries/TextureCubeProcessor"
+            },
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "preLaunchTask": "build-debug",
+            "args": [
+                "--posX", "${workspaceFolder}/Content/DemoContent/Skyboxes/Forest/Plants/posx.jpg",
+                "--negX", "${workspaceFolder}/Content/DemoContent/Skyboxes/Forest/Plants/negx.jpg",
+                "--posY", "${workspaceFolder}/Content/DemoContent/Skyboxes/Forest/Plants/posy.jpg",
+                "--negY", "${workspaceFolder}/Content/DemoContent/Skyboxes/Forest/Plants/negy.jpg",
+                "--posZ", "${workspaceFolder}/Content/DemoContent/Skyboxes/Forest/Plants/posz.jpg",
+                "--negZ", "${workspaceFolder}/Content/DemoContent/Skyboxes/Forest/Plants/negz.jpg",
+                "--output", "${workspaceRoot}/Bin/Content/Plants.texcube", "--mipmaps", "--irradiance", "--reflectance"
+            ]
+        },
+        {
+            "name": "Material Packer",
+            "type": "coreclr",
+            "request": "launch",
+            "windows": {
+                "program": "${workspaceFolder}/Bin/Binaries/MaterialPacker.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/Bin/Binaries/MaterialPacker"
+            },
+            "linux": {
+                "program": "${workspaceFolder}/Bin/Binaries/MaterialPacker"
+            },
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "preLaunchTask": "build-debug",
+            "args": [
+                "--name", "ScuffedGold",
+                "--output", "${workspaceFolder}/Bin/Content/DemoContent/Materials/Textures/ScuffedGold",
+                "--albedo", "${workspaceFolder}/Content/DemoContent/Materials/Textures/ScuffedGold/gold-scuffed_basecolor-boosted.png",
+                "--metalness", "${workspaceFolder}/Content/DemoContent/Materials/Textures/ScuffedGold/gold-scuffed_metallic.png",
+                "--roughness", "${workspaceFolder}/Content/DemoContent/Materials/Textures/ScuffedGold/gold-scuffed_roughness.png",
+                "--mipmaps", "--exclude", "emissive"
+            ]
+        },
+        {
+            "name": "Texture Generator",
+            "type": "coreclr",
+            "request": "launch",
+            "windows": {
+                "program": "${workspaceFolder}/Bin/Binaries/TextureGenerator.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/Bin/Binaries/TextureGenerator"
+            },
+            "linux": {
+                "program": "${workspaceFolder}/Bin/Binaries/TextureGenerator"
+            },
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "preLaunchTask": "build-debug",
+            "args": [
+                "--output", "${workspaceFolder}/Bin/Content/Engine",
+            ]
+        },
+        {
+            "name": "Material Generator",
+            "type": "coreclr",
+            "request": "launch",
+            "windows": {
+                "program": "${workspaceFolder}/Bin/Binaries/MaterialGenerator.exe"
+            },
+            "osx": {
+                "program": "${workspaceFolder}/Bin/Binaries/MaterialGenerator"
+            },
+            "linux": {
+                "program": "${workspaceFolder}/Bin/Binaries/MaterialGenerator"
+            },
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "preLaunchTask": "build-debug",
+            "args": [
+                "--output", "${workspaceFolder}/Bin/Content/DemoContent/Materials/AngledBlocksVegetation.material",
+                "--albedo", "${workspaceFolder}/Content/DemoContent/Materials/Textures/ScuffedGold/angled-blocks-vegetation_albedo.png",
+                "--normal", "${workspaceFolder}/Content/DemoContent/Materials/Textures/ScuffedGold/angled-blocks-vegetation_normal-ogl.png",
+                "--ao", "${workspaceFolder}/Content/DemoContent/Materials/Textures/ScuffedGold/angled-blocks-vegetation_ao.png",
+                "--roughness", "${workspaceFolder}/Content/DemoContent/Materials/Textures/ScuffedGold/angled-blocks-vegetation_roughness.png",
+                "--displacement", "${workspaceFolder}/Content/DemoContent/Materials/Textures/ScuffedGold/angled-blocks-vegetation_height.png",
+                "--exclude", "emissive"
+            ]
+        },
+        {
+            "name": "Mesh Merge",
+            "type": "coreclr",
+            "request": "launch",
+            "program": "${workspaceRoot}/Src/Tools/MeshMerge/bin/Debug/net6.0/linux-x64/MeshMerge",
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "preLaunchTask": "build-debug",
+            "args": [
+                "${workspaceRoot}/Bin/Content/Engine/Renderer/Meshes/LightMeshes/LightSphere.mesh",
+                "${workspaceRoot}/Bin/Content/Engine/Renderer/Meshes/LightMeshes/LightCone.mesh",
+                "${workspaceRoot}/Bin/Content/Engine/Renderer/Meshes/LightMeshes/LightMesh.mesh",
+            ]
+        },
+    ]
+}

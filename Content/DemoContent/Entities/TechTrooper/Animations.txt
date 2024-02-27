@@ -1,0 +1,16 @@
+0-160 idle
+174-204 run
+215-255 walk
+276-373 KnockOutKick
+385-484 BackKick
+502-609 Death
+619-653 GunShoot
+660-700 WalkGun
+705-776 JumpKick
+788-853 Punch
+864-945 RoundKick
+950-990 WalkInjured
+995-1080 Strafeleft
+1085-1180 Straferight
+1181-1208 Hit
+1220-1302 Hitrecover

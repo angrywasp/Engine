@@ -1,0 +1,14 @@
+<Project>
+    <PropertyGroup>
+        <TargetFrameworks>net8.0</TargetFrameworks>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <DefineConstants>$(DefineConstants);DEBUG;TRACE;OPENGL;OPENAL;DESKTOPGL;SUPPORTS_EFX;UNSAFE;</DefineConstants>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DefineConstants>$(DefineConstants);OPENGL;OPENAL;DESKTOPGL;SUPPORTS_EFX;UNSAFE;</DefineConstants>
+    </PropertyGroup>
+</Project>

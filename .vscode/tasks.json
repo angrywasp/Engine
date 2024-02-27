@@ -1,0 +1,53 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build-debug",
+            "type": "shell",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "-c",
+                "Debug",
+                "-nowarn:CS1570",
+                "-nowarn:CS1572",
+                "-nowarn:CS1573",
+                "-nowarn:CS1591",
+                "-nowarn:CS1711",
+                "${workspaceRoot}/Src/Engine.sln"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-release",
+            "type": "shell",
+            "command": "dotnet",
+            "args": [
+                "build",
+                "-c",
+                "Release",
+                "-nowarn:CS1570",
+                "-nowarn:CS1572",
+                "-nowarn:CS1573",
+                "-nowarn:CS1591",
+                "-nowarn:CS1711",
+                "${workspaceRoot}/Src/Engine.sln"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "silent"
+            },
+            "problemMatcher": "$msCompile"
+        },
+    ]
+}

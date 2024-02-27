@@ -1,0 +1,9 @@
+Bin/
+Src/**/obj
+Src/**/bin
+**/.DS_Store
+Src/.vs
+*.tmp*
+
+**/ConvertScene
+**/*.blend1

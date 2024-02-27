@@ -1,0 +1,1 @@
+C:\Users\Admin\AppData\Roaming\IDV, Inc\SpeedTreeModeler9\texture_packing

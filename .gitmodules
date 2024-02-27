@@ -1,0 +1,15 @@
+[submodule "Src/External/Bepu2"]
+	path = Src/External/Bepu2
+	url = https://github.com/angrywasp/bepuphysics2.git
+[submodule "Src/External/SharpGLTF"]
+	path = Src/External/SharpGLTF
+	url = https://github.com/angrywasp/SharpGLTF.git
+[submodule "Src/External/LiteNetLib"]
+	path = Src/External/LiteNetLib
+	url = https://github.com/angrywasp/LiteNetLib.git
+[submodule "Src/External/lidgren-network-gen3"]
+	path = Src/External/lidgren-network-gen3
+	url = https://github.com/angrywasp/lidgren-network-gen3.git
+[submodule "Src/External/AngryWasp.Build"]
+	path = Src/External/AngryWasp.Build
+	url = https://github.com/angrywasp/AngryWasp.Build

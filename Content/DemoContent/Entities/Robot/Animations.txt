@@ -1,0 +1,28 @@
+Idle: 0-90
+Walk: 91-126
+Walk Backwards: 127-163
+Walk Strafe Right: 164-195
+Walk Strafe Left: 196-227
+Standing Jump: 228-325
+Run: 326-345
+Run Backwards: 346-365
+Run Strafe Right: 366-386
+Run Strafe Left: 387-407
+Running Jump: 408-438
+
+Pistol Idle: 439-479
+Pistol Walk: 480-504
+Pistol Walk Backwards: 505-536
+Pistol Stafe Right: 537-555
+Pistol Stafe Left: 556-574
+Pistol Standing Jump: 575-635
+Pistol Run: 636-651
+Pistol Run Backwards: 652-668
+Pistol Running Jump: 669-693
+
+Standing To Crouched: 694-713
+Crouching Idle: 714-789
+Crouched To Standing: 790-809
+Pistol Stand To Kneel: 810-840
+Pistol Kneeling Idle: 841-955
+Pistol Kneel To Stand: 956-997

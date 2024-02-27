@@ -1,0 +1,47 @@
+#!/bin/bash
+
+#Directory of source resources: /Content
+export CONTENT_SRC_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+#Engine root directory: /
+export ROOT_DIR="$(cd "$(dirname "${CONTENT_SRC_DIR}")" && pwd)"
+#Engine root directory: /Bin
+export ENGINE_ROOT_DIR=${ROOT_DIR}/Bin
+#Directory for resource compilation output: /Bin/Content
+export CONTENT_BIN_DIR=${ROOT_DIR}/Bin/Content
+
+if [ "$(uname)" == "Linux" ]; then
+    if [[ "$(uname -r)" =~ .*"WSL2".* ]]; then
+        extension=".exe"
+    else
+        extension=""
+    fi
+elif [ "$(uname)" == "Darwin" ]; then
+    extension=""
+elif [ "$(expr substr $(uname -s) 1 7)" == "MSYS_NT" ] || [ "$(expr substr $(uname -s) 1 7)" == "MINGW64" ]; then
+    extension=".exe"
+else
+	echo "Unsupported OS"
+	exit 0
+fi
+
+export FONTPROC="${ROOT_DIR}/Bin/Binaries/FontProcessor${extension}"
+export HMAPPROC="${ROOT_DIR}/Bin/Binaries/HeightmapProcessor${extension}"
+export MACROPROC="${ROOT_DIR}/Bin/Binaries/MacroProcessor${extension} ${ROOT_DIR}/Bin"
+export MESHPROC="${ROOT_DIR}/Bin/Binaries/MeshProcessor${extension}"
+export SOUNDPROC="${ROOT_DIR}/Bin/Binaries/SoundEffectProcessor${extension}"
+export TEXCUBEPROC="${ROOT_DIR}/Bin/Binaries/TextureCubeProcessor${extension}"
+export TEXPROC="${ROOT_DIR}/Bin/Binaries/TextureProcessor${extension}"
+export MATPACK="${ROOT_DIR}/Bin/Binaries/MaterialPacker${extension}"
+export MESHMERGE="${ROOT_DIR}/Bin/Binaries/MeshMerge${extension}"
+export MATGEN="${ROOT_DIR}/Bin/Binaries/MaterialGenerator${extension}"
+export TEXGEN="${ROOT_DIR}/Bin/Binaries/TextureGenerator${extension}"
+
+export MACROPROC_ASSEMBLY="ScriptEngine.Precompiled.Console"
+
+export clr=$(tput sgr0)
+export cyan=$(tput setaf 6)
+export grn=$(tput setaf 2) 
+
+if ! [ -d "${CONTENT_BIN_DIR}" ]; then
+	mkdir -p "${CONTENT_BIN_DIR}"
+fi

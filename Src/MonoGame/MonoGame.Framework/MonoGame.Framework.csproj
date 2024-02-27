@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="../../External/AngryWasp.Build/AngryWasp.Build.Library.targets" />
+    <Import Project="../../Engine.targets" />
+    <ItemGroup>
+        <ProjectReference Include="../NVorbis/NVorbis.csproj" />
+    </ItemGroup>
+    <ItemGroup Condition="$([MSBuild]::IsOSPlatform('OSX'))">
+        <None Include="../Native/libSDL2-2.0.0.dylib">
+            <Link>libSDL2-2.0.0.dylib</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="../Native/libopenal.1.21.1.dylib">
+            <Link>libopenal.1.21.1.dylib</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="../Native/libSkiaSharp.dylib">
+            <Link>libSkiaSharp.dylib</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Include="./Native/libHarfBuzzSharp.dylib">
+            <Link>libHarfBuzzSharp.dylib</Link>
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup Condition="$([MSBuild]::IsOSPlatform('Windows'))">
+      <None Include="../Native/SDL2.dll">
+        <Link>SDL2.dll</Link>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+      <None Include="../Native/soft_oal.dll">
+        <Link>soft_oal.dll</Link>
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+    <ItemGroup>
+        <EmbeddedResource Include="Src/SDL/gamecontrollerdb.txt">
+            <LogicalName>gamecontrollerdb.txt</LogicalName>
+        </EmbeddedResource>
+    </ItemGroup>
+</Project>

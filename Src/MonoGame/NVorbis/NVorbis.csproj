@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="../../External/AngryWasp.Build/AngryWasp.Build.Library.targets" />
+    <Import Project="../../Engine.targets" />
+    <ItemGroup>
+        <PackageReference Include="System.Memory" Version="4.5.5" />
+        <PackageReference Include="System.ValueTuple" Version="4.5.0" />
+    </ItemGroup>
+
+</Project>

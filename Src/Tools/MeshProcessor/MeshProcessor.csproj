@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../../External/AngryWasp.Build/AngryWasp.Build.Application.targets" />
+  <Import Project="../../Engine.targets" />
+  <ItemGroup>
+    <ProjectReference Include="../../Engine/Engine.Core/Engine.Core.csproj" />
+    <ProjectReference Include="../../MonoGame/MonoGame.Framework/MonoGame.Framework.csproj" />
+    <ProjectReference Include="../../External/SharpGLTF/src/SharpGLTF.Core/SharpGLTF.Core.csproj" />
+    <ProjectReference Include="../../External/SharpGLTF/src/SharpGLTF.Toolkit/SharpGLTF.Toolkit.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AngryWasp.Cli" Version="3.0.8" />
+    <PackageReference Include="AngryWasp.Helpers" Version="3.0.16" />
+    <PackageReference Include="AngryWasp.Logger" Version="3.0.1" />
+    <PackageReference Include="AngryWasp.Cryptography" Version="3.0.10" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,1035 @@
+<roms>
+  <a2600>
+    <rom n="3-D Tic-Tac-Toe.bin" mt="1" ct="1" c="1" />
+    <rom n="A-Team.bin" mt="1" ct="8" c="1" />
+    <rom n="Acid Drop.bin" mt="2" ct="6" c="1" />
+    <rom n="Action Force - Action Man.bin" mt="2" ct="3" c="2" />
+    <rom n="Adventure.bin" mt="1" ct="3" c="1" />
+    <rom n="Adventure34.bin" mt="1" ct="3" c="1" />
+    <rom n="Adventures of Tron.bin" mt="1" ct="3" c="1" />
+    <rom n="Adventures on GX-12.bin" mt="2" ct="3" c="1" />
+    <rom n="Air Raid.bin" mt="1" ct="3" c="1" />
+    <rom n="Air Raiders.bin" mt="1" ct="3" c="1" />
+    <rom n="Air-Sea Battle.bin" mt="1" ct="1" c="1" />
+    <rom n="Airlock.bin" mt="1" ct="3" c="1" />
+    <rom n="Alice's Abenteuer.bin" mt="2" ct="3" c="1" />
+    <rom n="Alien's Return.bin" mt="2" ct="3" c="1" />
+    <rom n="Alien.bin" mt="1" ct="3" c="1" />
+    <rom n="Alpha Beam with Ernie.bin" mt="1" ct="8" c="3" />
+    <rom n="Amanda Invaders.bin" mt="1" ct="3" c="1" />
+    <rom n="Amidar.bin" mt="1" ct="3" c="1" />
+    <rom n="Angling.bin" mt="2" ct="1" c="1" />
+    <rom n="Angriff der Luftflotten (a.k.a. Paris Attack).bin" mt="2" ct="3" c="1" />
+    <rom n="Apples and Dolls.bin" mt="1" ct="3" c="1" />
+    <rom n="Aquaventure.bin" mt="1" ct="8" c="1" />
+    <rom n="Armor Ambush.bin" mt="1" ct="3" c="1" />
+    <rom n="Artillery Duel.bin" mt="1" ct="8" c="1" />
+    <rom n="Assault.bin" mt="1" ct="3" c="1" />
+    <rom n="Aster Hawk.bin" mt="1" ct="8" c="1" />
+    <rom n="Asterix.bin" mt="2" ct="8" c="1" />
+    <rom n="Asteroids (Vector).bin" mt="1" ct="8" c="1" />
+    <rom n="Asteroids DC+.bin" mt="1" ct="8" c="4" />
+    <rom n="Asteroids.bin" mt="2" ct="8" c="1" />
+    <rom n="Astroblast.bin" mt="1" ct="3" c="1" />
+    <rom n="Astrowar.bin" mt="1" ct="3" c="1" />
+    <rom n="Atari 2600 Invaders.bin" mt="1" ct="3" c="1" />
+    <rom n="Atari Invaders.bin" mt="1" ct="3" c="1" />
+    <rom n="Atari Logo Demo.bin" mt="2" ct="3" c="1" />
+    <rom n="Atari Video Cube.bin" mt="1" ct="3" c="1" />
+    <rom n="Atlantis II.bin" mt="1" ct="3" c="1" />
+    <rom n="Atlantis.bin" mt="1" ct="3" c="1" />
+    <rom n="Attack Of The Mutant Space Urchins.bin" mt="1" ct="3" c="1" />
+    <rom n="Aufruhr im Zoo.bin" mt="2" ct="3" c="1" />
+    <rom n="Autorennen (a.k.a. Grand Prix).bin" mt="2" ct="3" c="1" />
+    <rom n="Bachelor Party.bin" mt="1" ct="3" c="2" />
+    <rom n="Bachelorette Party.bin" mt="1" ct="3" c="2" />
+    <rom n="Backgammon.bin" mt="1" ct="3" c="2" />
+    <rom n="Bank Heist (w Skull Island Label).bin" mt="2" ct="3" c="1" />
+    <rom n="Bank Heist.bin" mt="1" ct="3" c="1" />
+    <rom n="Barber Pole Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Barnstorming.bin" mt="1" ct="3" c="1" />
+    <rom n="Base Attack (a.k.a. Z-Tack -Laser-Loop -Sky Scrapper).bin" mt="2" ct="3" c="1" />
+    <rom n="Basic Programming.bin" mt="1" ct="3" c="3" />
+    <rom n="Basketball.bin" mt="1" ct="1" c="1" />
+    <rom n="Battle For Naboo.bin" mt="1" ct="3" c="1" />
+    <rom n="Battlezone TC.bin" mt="1" ct="6" c="1" />
+    <rom n="Battlezone.bin" mt="1" ct="8" c="1" />
+    <rom n="Beamrider.bin" mt="1" ct="8" c="1" />
+    <rom n="Beanie Baby Bash.bin" mt="1" ct="3" c="1" />
+    <rom n="Beany Bopper.bin" mt="1" ct="3" c="1" />
+    <rom n="Beast Invaders.bin" mt="1" ct="3" c="1" />
+    <rom n="Beat 'Em and Eat 'Em.bin" mt="1" ct="3" c="2" />
+    <rom n="Berenstain Bears.bin" mt="1" ct="8" c="1" />
+    <rom n="Bermuda Triangle.bin" mt="1" ct="3" c="1" />
+    <rom n="Bermuda.bin" mt="2" ct="3" c="1" />
+    <rom n="Berzerk Voice Enhanced.bin" mt="1" ct="6" c="1" />
+    <rom n="Berzerk.bin" mt="1" ct="3" c="1" />
+    <rom n="Better Space Invaders.bin" mt="1" ct="3" c="1" />
+    <rom n="Betterblast.bin" mt="1" ct="3" c="1" />
+    <rom n="Bi! Bi! (a.k.a. Ungeheuer der Tiefe).bin" mt="2" ct="3" c="1" />
+    <rom n="Big - Move This Demo 2.bin" mt="1" ct="3" c="1" />
+    <rom n="Big - Move This Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Big Bird's Egg Catch.bin" mt="1" ct="8" c="3" />
+    <rom n="Billard.bin" mt="2" ct="3" c="1" />
+    <rom n="Bionic Breakthrough.bin" mt="1" ct="8" c="1" />
+    <rom n="Black and White Fast Scolling Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Black Hole.bin" mt="2" ct="3" c="1" />
+    <rom n="Blackjack.bin" mt="2" ct="1" c="2" />
+    <rom n="Blair Witch Project.bin" mt="1" ct="3" c="1" />
+    <rom n="Blue and White Sprite Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Blue Dot Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Blueprint.bin" mt="1" ct="8" c="1" />
+    <rom n="BMX Air Master.bin" mt="1" ct="6" c="1" />
+    <rom n="Bobby geht nach Hause.bin" mt="2" ct="3" c="1" />
+    <rom n="Bobby is Going Home.bin" mt="2" ct="3" c="1" />
+    <rom n="Bogey Blaster.bin" mt="2" ct="3" c="1" />
+    <rom n="Boing!.bin" mt="1" ct="3" c="1" />
+    <rom n="Boom Bang (a.k.a. Crackpots).bin" mt="1" ct="3" c="1" />
+    <rom n="Boom Bang (a.k.a. Kampf dem Steinfresser).bin" mt="2" ct="3" c="1" />
+    <rom n="Booster by Junkosoft.bin" mt="1" ct="3" c="1" />
+    <rom n="Bowling.bin" mt="1" ct="1" c="1" />
+    <rom n="Boxen.bin" mt="2" ct="1" c="1" />
+    <rom n="Boxing.bin" mt="1" ct="1" c="1" />
+    <rom n="Brain Games.bin" mt="1" ct="1" c="3" />
+    <rom n="Breakdown (a.k.a. Capture).bin" mt="2" ct="3" c="1" />
+    <rom n="Breaking News.bin" mt="1" ct="5" c="1" />
+    <rom n="Breakout - Breakaway IV.bin" mt="1" ct="1" c="2" />
+    <rom n="Brick Kick.bin" mt="1" ct="3" c="1" />
+    <rom n="Bridge.bin" mt="1" ct="3" c="1" />
+    <rom n="Buck Rogers - Planet of Zoom.bin" mt="1" ct="8" c="1" />
+    <rom n="Bugs Bunny.bin" mt="1" ct="8" c="1" />
+    <rom n="Bugs.bin" mt="1" ct="3" c="1" />
+    <rom n="Bump 'N' Jump.bin" mt="1" ct="5" c="1" />
+    <rom n="Bumper Bash.bin" mt="1" ct="3" c="1" />
+    <rom n="Burgertime.bin" mt="1" ct="5" c="1" />
+    <rom n="Burning Desire.bin" mt="1" ct="3" c="1" />
+    <rom n="Cakewalk.bin" mt="1" ct="3" c="1" />
+    <rom n="California Games.bin" mt="1" ct="6" c="1" />
+    <rom n="Candi.bin" mt="1" ct="3" c="1" />
+    <rom n="Canguru (Brazil).bin" mt="1" ct="8" c="1" />
+    <rom n="Canyon Bomber.bin" mt="1" ct="1" c="1" />
+    <rom n="Carnival.bin" mt="1" ct="3" c="1" />
+    <rom n="Casino (a.k.a. Poker Plus).bin" mt="1" ct="3" c="2" />
+    <rom n="Casino.bin" mt="2" ct="3" c="2" />
+    <rom n="Cat and Mouse.bin" mt="1" ct="3" c="1" />
+    <rom n="Cat Trax.bin" mt="1" ct="3" c="1" />
+    <rom n="Cathouse Blues.bin" mt="1" ct="3" c="1" />
+    <rom n="Centipede 2k.bin" mt="1" ct="8" c="1" />
+    <rom n="Centipede.bin" mt="1" ct="8" c="1" />
+    <rom n="Challenge of...NEXAR.bin" mt="1" ct="3" c="1" />
+    <rom n="Challenge.bin" mt="1" ct="3" c="1" />
+    <rom n="Championship Soccer (a.k.a. International Soccer).bin" mt="1" ct="3" c="1" />
+    <rom n="Championship Soccer (a.k.a. Pele's Soccer).bin" mt="1" ct="3" c="1" />
+    <rom n="Chase the Chuckwagon.bin" mt="1" ct="3" c="1" />
+    <rom n="Checkers.bin" mt="1" ct="1" c="1" />
+    <rom n="China Syndrome.bin" mt="1" ct="3" c="1" />
+    <rom n="Chinese Character Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Chopper Command.bin" mt="1" ct="3" c="1" />
+    <rom n="Chuck Norris Superkicks.bin" mt="1" ct="8" c="1" />
+    <rom n="Circus Atari.bin" mt="1" ct="3" c="1" />
+    <rom n="Climber 5.bin" mt="1" ct="3" c="1" />
+    <rom n="Coco Nuts.bin" mt="1" ct="3" c="1" />
+    <rom n="Codebreaker.bin" mt="2" ct="1" c="3" />
+    <rom n="Coffee Cup Soccer.bin" mt="1" ct="3" c="1" />
+    <rom n="Col 'N.bin" mt="1" ct="3" c="1" />
+    <rom n="Color Bar Generator.bin" mt="1" ct="3" c="1" />
+    <rom n="Color Table Display Helper.bin" mt="1" ct="3" c="1" />
+    <rom n="Colors Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Colours Selector.bin" mt="1" ct="1" c="1" />
+    <rom n="Combat - Tank Plus.bin" mt="1" ct="3" c="1" />
+    <rom n="Combat II.bin" mt="1" ct="8" c="1" />
+    <rom n="Combat Rock.bin" mt="1" ct="3" c="1" />
+    <rom n="Combat.bin" mt="1" ct="1" c="1" />
+    <rom n="Commando Raid.bin" mt="1" ct="3" c="1" />
+    <rom n="Commando.bin" mt="1" ct="6" c="1" />
+    <rom n="CompuMate.bin" mt="2" ct="6" c="1" />
+    <rom n="Computer Chess.bin" mt="1" ct="3" c="1" />
+    <rom n="Condor Attack.bin" mt="2" ct="3" c="1" />
+    <rom n="Confrontation.bin" mt="1" ct="3" c="1" />
+    <rom n="Congo Bongo.bin" mt="1" ct="8" c="1" />
+    <rom n="Console Wars.bin" mt="1" ct="1" c="1" />
+    <rom n="Cookie Monster Munch.bin" mt="2" ct="8" c="3" />
+    <rom n="Corrida da Matematica.bin" mt="1" ct="3" c="1" />
+    <rom n="Cosmic Ark (Star Disable Option).bin" mt="1" ct="3" c="1" />
+    <rom n="Cosmic Ark.bin" mt="1" ct="3" c="1" />
+    <rom n="Cosmic Avenger.bin" mt="2" ct="3" c="1" />
+    <rom n="Cosmic Commuter.bin" mt="1" ct="3" c="1" />
+    <rom n="Cosmic Corridor.bin" mt="1" ct="3" c="1" />
+    <rom n="Cosmic Creeps.bin" mt="1" ct="3" c="1" />
+    <rom n="Cosmic Swarm.bin" mt="2" ct="1" c="1" />
+    <rom n="Cosmic Town.bin" mt="2" ct="3" c="1" />
+    <rom n="Counter Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Crackpots.bin" mt="1" ct="6" c="1" />
+    <rom n="Crash Dive.bin" mt="1" ct="3" c="1" />
+    <rom n="Crazy Climber.bin" mt="1" ct="8" c="1" />
+    <rom n="Crazy Valet.bin" mt="1" ct="3" c="1" />
+    <rom n="Criminal Pursuit.bin" mt="1" ct="3" c="1" />
+    <rom n="Cross Force.bin" mt="1" ct="3" c="1" />
+    <rom n="Crossbow.bin" mt="1" ct="6" c="1" />
+    <rom n="Cruise Missile.bin" mt="1" ct="3" c="1" />
+    <rom n="Crypts of Chaos.bin" mt="1" ct="3" c="1" />
+    <rom n="Crystal Castles.bin" mt="1" ct="7" c="1" />
+    <rom n="Cubicolor.bin" mt="1" ct="3" c="1" />
+    <rom n="Cubis.bin" mt="2" ct="3" c="1" />
+    <rom n="Cubo Magico.bin" mt="1" ct="3" c="1" />
+    <rom n="Custer's Revenge.bin" mt="1" ct="3" c="1" />
+    <rom n="Cute Dead Things House.bin" mt="1" ct="3" c="1" />
+    <rom n="Cybergoth Galaxian.bin" mt="1" ct="8" c="1" />
+    <rom n="Dancing Baby Demo.bin" mt="1" ct="2" c="1" />
+    <rom n="Dancing Plate.bin" mt="2" ct="3" c="1" />
+    <rom n="Dancing Plates.bin" mt="2" ct="3" c="1" />
+    <rom n="Dare Diver.bin" mt="1" ct="3" c="1" />
+    <rom n="Dark Cavern.bin" mt="1" ct="3" c="1" />
+    <rom n="Dark Chambers.bin" mt="1" ct="7" c="1" />
+    <rom n="Dark Mage (4K).bin" mt="1" ct="3" c="1" />
+    <rom n="Dark Mage (8K).bin" mt="1" ct="8" c="1" />
+    <rom n="Deadly Duck.bin" mt="1" ct="3" c="1" />
+    <rom n="Death Trap.bin" mt="1" ct="3" c="1" />
+    <rom n="Decathlon.bin" mt="1" ct="13" c="1" />
+    <rom n="Defender 2.bin" mt="1" ct="9" c="1" />
+    <rom n="Defender.bin" mt="1" ct="3" c="1" />
+    <rom n="Demolition Herby.bin" mt="1" ct="3" c="1" />
+    <rom n="Demon Attack.bin" mt="1" ct="3" c="1" />
+    <rom n="Demons to Diamonds.bin" mt="1" ct="3" c="2" />
+    <rom n="Demons!.bin" mt="1" ct="8" c="1" />
+    <rom n="Der Geheimkurier.bin" mt="2" ct="3" c="1" />
+    <rom n="Der hungrige Panda.bin" mt="2" ct="3" c="1" />
+    <rom n="Der kleine Baer.bin" mt="2" ct="3" c="1" />
+    <rom n="Der Vielfrass.bin" mt="2" ct="3" c="1" />
+    <rom n="Desert Falcon.bin" mt="1" ct="6" c="1" />
+    <rom n="Diagnostic Cartridge.bin" mt="1" ct="1" c="1" />
+    <rom n="Dice Puzzle.bin" mt="1" ct="3" c="1" />
+    <rom n="Die Ente und der Wolf.bin" mt="2" ct="3" c="1" />
+    <rom n="Die hungrigen Froesche.bin" mt="2" ct="3" c="1" />
+    <rom n="Die Ratte und die Karotten.bin" mt="2" ct="3" c="1" />
+    <rom n="Die Springteufel.bin" mt="2" ct="3" c="1" />
+    <rom n="Die Unterwasser-Bestien.bin" mt="2" ct="3" c="1" />
+    <rom n="Dig Dug (Version 1).bin" mt="2" ct="7" c="1" />
+    <rom n="Dig Dug (Version 2).bin" mt="2" ct="7" c="1" />
+    <rom n="Dig Dug.bin" mt="1" ct="7" c="1" />
+    <rom n="Dishaster.bin" mt="1" ct="3" c="1" />
+    <rom n="Dodge 'em.bin" mt="1" ct="3" c="1" />
+    <rom n="Dolphin.bin" mt="1" ct="6" c="1" />
+    <rom n="Donald Duck's Speedboat.bin" mt="1" ct="8" c="1" />
+    <rom n="Donkey Claus.bin" mt="1" ct="3" c="1" />
+    <rom n="Donkey Kong Jr..bin" mt="1" ct="8" c="1" />
+    <rom n="Donkey Kong.bin" mt="1" ct="3" c="1" />
+    <rom n="Doomzerk.bin" mt="1" ct="3" c="1" />
+    <rom n="Double Dragon.bin" mt="2" ct="6" c="1" />
+    <rom n="Double Dunk.bin" mt="1" ct="6" c="1" />
+    <rom n="Dragon Defender.bin" mt="1" ct="3" c="1" />
+    <rom n="Dragonfire.bin" mt="1" ct="3" c="1" />
+    <rom n="Dragster.bin" mt="1" ct="1" c="1" />
+    <rom n="Droid Demo 2.bin" mt="1" ct="3" c="1" />
+    <rom n="Droid Demo 22.bin" mt="1" ct="3" c="1" />
+    <rom n="Dschungle Boy (a.k.a. Tom Boy).bin" mt="2" ct="3" c="1" />
+    <rom n="Duck Shoot (Kampf um die Schatzinsel).bin" mt="2" ct="3" c="1" />
+    <rom n="Dukes of Hazzard V2.bin" mt="1" ct="3" c="2" />
+    <rom n="Dukes of Hazzard.bin" mt="1" ct="6" c="1" />
+    <rom n="Dumbo's Flying Circus.bin" mt="2" ct="8" c="1" />
+    <rom n="DUP Space Invaders.bin" mt="1" ct="3" c="1" />
+    <rom n="E.T. The Extra-Terrestrial.bin" mt="1" ct="8" c="1" />
+    <rom n="E.T. The Extra-Testical.bin" mt="1" ct="8" c="1" />
+    <rom n="Earth Attack.bin" mt="1" ct="3" c="1" />
+    <rom n="Earth Dies Screaming.bin" mt="1" ct="3" c="1" />
+    <rom n="Ed Invaders.bin" mt="1" ct="3" c="1" />
+    <rom n="Eddy Langfinger - der Museumsdieb.bin" mt="2" ct="3" c="1" />
+    <rom n="Edtris.bin" mt="1" ct="3" c="1" />
+    <rom n="Egghead.bin" mt="1" ct="3" c="1" />
+    <rom n="Eggomania.bin" mt="1" ct="3" c="2" />
+    <rom n="Eishockey-Fieber.bin" mt="2" ct="3" c="1" />
+    <rom n="Elevator Action.bin" mt="1" ct="9" c="1" />
+    <rom n="Eli's Ladder.bin" mt="1" ct="3" c="1" />
+    <rom n="Elk Attack.bin" mt="1" ct="8" c="1" />
+    <rom n="Encounter at L5.bin" mt="1" ct="3" c="2" />
+    <rom n="Enduro (Brazil).bin" mt="2" ct="3" c="1" />
+    <rom n="Enduro.bin" mt="1" ct="3" c="1" />
+    <rom n="Entombed.bin" mt="1" ct="3" c="1" />
+    <rom n="Escape Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Espial.bin" mt="2" ct="2" c="1" />
+    <rom n="Euchre.bin" mt="1" ct="3" c="1" />
+    <rom n="Exocet (a.k.a. Space Eagle).bin" mt="1" ct="3" c="1" />
+    <rom n="Exorcise.bin" mt="1" ct="3" c="1" />
+    <rom n="Face Invaders 2.bin" mt="1" ct="3" c="1" />
+    <rom n="Face Invaders Deluxe.bin" mt="1" ct="3" c="1" />
+    <rom n="Fantastic Voyage.bin" mt="1" ct="3" c="1" />
+    <rom n="Farmyard Fun.bin" mt="1" ct="3" c="1" />
+    <rom n="Fast Eddie.bin" mt="1" ct="3" c="1" />
+    <rom n="Fast Food (Brazil).bin" mt="1" ct="3" c="1" />
+    <rom n="Fast Food.bin" mt="1" ct="3" c="1" />
+    <rom n="Fat Albert.bin" mt="1" ct="3" c="1" />
+    <rom n="Fatal Run.bin" mt="1" ct="11" c="1" />
+    <rom n="Fathom.bin" mt="1" ct="8" c="1" />
+    <rom n="Felix Return.bin" mt="2" ct="3" c="1" />
+    <rom n="Festival.bin" mt="2" ct="3" c="1" />
+    <rom n="Feuerwehr im Einsatz.bin" mt="2" ct="3" c="1" />
+    <rom n="Final Approach.bin" mt="1" ct="3" c="1" />
+    <rom n="Fire Bird.bin" mt="2" ct="8" c="1" />
+    <rom n="Fire Birds (a.k.a. Scorpion).bin" mt="2" ct="3" c="1" />
+    <rom n="Fire Fighter.bin" mt="1" ct="3" c="1" />
+    <rom n="Fire Fly.bin" mt="1" ct="3" c="1" />
+    <rom n="Fire Spinner.bin" mt="1" ct="3" c="1" />
+    <rom n="Fisher Price.bin" mt="2" ct="3" c="1" />
+    <rom n="Fishing Derby.bin" mt="1" ct="1" c="1" />
+    <rom n="Flag Capture.bin" mt="1" ct="1" c="1" />
+    <rom n="Flash Gordon.bin" mt="1" ct="3" c="1" />
+    <rom n="Flippern.bin" mt="2" ct="3" c="1" />
+    <rom n="Football (a.k.a. Fussball).bin" mt="2" ct="3" c="1" />
+    <rom n="Football.bin" mt="1" ct="1" c="1" />
+    <rom n="Forest.bin" mt="2" ct="3" c="1" />
+    <rom n="Fox &amp; Goat.bin" mt="2" ct="3" c="1" />
+    <rom n="Frame Timed Sound Effects.bin" mt="1" ct="3" c="1" />
+    <rom n="Frankenstein's Monster.bin" mt="1" ct="3" c="1" />
+    <rom n="Freeway (a.k.a. Rabbits).bin" mt="2" ct="1" c="1" />
+    <rom n="Freeway.bin" mt="1" ct="1" c="1" />
+    <rom n="Frog Pond.bin" mt="1" ct="8" c="1" />
+    <rom n="Frogger II - Threedeep!.bin" mt="1" ct="4" c="1" />
+    <rom n="Frogger.bin" mt="1" ct="3" c="1" />
+    <rom n="Frogs and Flies.bin" mt="1" ct="3" c="1" />
+    <rom n="Frontline.bin" mt="1" ct="8" c="1" />
+    <rom n="Frostbite (Brazil).bin" mt="2" ct="3" c="1" />
+    <rom n="Frostbite.bin" mt="1" ct="3" c="1" />
+    <rom n="Fuchs &amp; Schweinchen Schlau.bin" mt="2" ct="3" c="1" />
+    <rom n="Fun With Numbers.bin" mt="1" ct="1" c="1" />
+    <rom n="G.I. Joe - Cobra Strike.bin" mt="1" ct="3" c="2" />
+    <rom n="Galactic (G).bin" mt="2" ct="3" c="1" />
+    <rom n="Galaga (River Raid clone).bin" mt="2" ct="3" c="1" />
+    <rom n="Galaxian (Enhanced Graphics).bin" mt="1" ct="8" c="1" />
+    <rom n="Galaxian.bin" mt="1" ct="8" c="1" />
+    <rom n="Game of Concentration.bin" mt="1" ct="1" c="3" />
+    <rom n="Gangster Alley.bin" mt="1" ct="3" c="1" />
+    <rom n="Gangster.bin" mt="2" ct="1" c="1" />
+    <rom n="Garfield.bin" mt="1" ct="6" c="1" />
+    <rom n="Gas Hog (a.k.a. Marspatrouille).bin" mt="2" ct="3" c="1" />
+    <rom n="Gas Hog.bin" mt="1" ct="3" c="1" />
+    <rom n="Gauntlet.bin" mt="1" ct="3" c="1" />
+    <rom n="Gefaehrliche Maeusejagt.bin" mt="2" ct="3" c="1" />
+    <rom n="Gefecht im All.bin" mt="2" ct="3" c="1" />
+    <rom n="General Retreat.bin" mt="2" ct="3" c="1" />
+    <rom n="Ghost Manor.bin" mt="1" ct="3" c="1" />
+    <rom n="Ghostbusters II (Version 2).bin" mt="1" ct="6" c="1" />
+    <rom n="Ghostbusters II.bin" mt="2" ct="6" c="1" />
+    <rom n="Ghostbusters.bin" mt="1" ct="8" c="1" />
+    <rom n="Gigolo.bin" mt="1" ct="3" c="1" />
+    <rom n="Glacier Patrol.bin" mt="1" ct="3" c="1" />
+    <rom n="Glib (Selchow Righter).bin" mt="1" ct="3" c="1" />
+    <rom n="Glorb.bin" mt="1" ct="3" c="1" />
+    <rom n="Golf.bin" mt="1" ct="1" c="1" />
+    <rom n="Gopher.bin" mt="1" ct="3" c="1" />
+    <rom n="Gorf.bin" mt="1" ct="3" c="1" />
+    <rom n="Gorilla Kong.bin" mt="1" ct="3" c="1" />
+    <rom n="Grand Prix.bin" mt="1" ct="3" c="1" />
+    <rom n="Gravitar.bin" mt="1" ct="8" c="1" />
+    <rom n="Great Escape.bin" mt="1" ct="3" c="1" />
+    <rom n="Green Bar Text Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="GREGXM Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Gremlins.bin" mt="1" ct="8" c="1" />
+    <rom n="Grid and Purple Dot Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Grid Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Ground Zero.bin" mt="2" ct="3" c="1" />
+    <rom n="Grover's Music Maker.bin" mt="1" ct="8" c="3" />
+    <rom n="Guardian.bin" mt="1" ct="3" c="2" />
+    <rom n="Gunfight (0.09).bin" mt="1" ct="3" c="1" />
+    <rom n="Gunfight.bin" mt="1" ct="3" c="1" />
+    <rom n="Gyruss.bin" mt="1" ct="4" c="1" />
+    <rom n="H.E.R.O..bin" mt="1" ct="8" c="1" />
+    <rom n="Halloween (a.k.a. Sexta Fiera 13).bin" mt="1" ct="3" c="1" />
+    <rom n="Hangman.bin" mt="1" ct="3" c="1" />
+    <rom n="Harbor Escape.bin" mt="1" ct="3" c="1" />
+    <rom n="Haunted House.bin" mt="1" ct="3" c="1" />
+    <rom n="Hell Driver.bin" mt="2" ct="3" c="1" />
+    <rom n="Hili Ball.bin" mt="2" ct="3" c="1" />
+    <rom n="Hole Hunter.bin" mt="1" ct="3" c="1" />
+    <rom n="Holey Moley.bin" mt="1" ct="8" c="3" />
+    <rom n="Home Run Baseball (32-in-1).bin" mt="2" ct="1" c="1" />
+    <rom n="Home Run Baseball.bin" mt="1" ct="1" c="1" />
+    <rom n="Horizontally Scrolling Playfield Thing.bin" mt="1" ct="3" c="1" />
+    <rom n="Hozer Video Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Human Cannonball (a.k.a. Cannon Man).bin" mt="1" ct="1" c="1" />
+    <rom n="Hunt &amp; Score.bin" mt="2" ct="1" c="1" />
+    <rom n="I Want My Mommy (a.k.a. Ursinho Esperto).bin" mt="1" ct="3" c="1" />
+    <rom n="I.Q. 180.bin" mt="1" ct="3" c="1" />
+    <rom n="Ice Hockey.bin" mt="1" ct="3" c="1" />
+    <rom n="Ikari Warriors.bin" mt="2" ct="6" c="1" />
+    <rom n="Im Reich der Spinne.bin" mt="2" ct="3" c="1" />
+    <rom n="Im Schutz der Drachen.bin" mt="2" ct="3" c="1" />
+    <rom n="Imagic Selector.bin" mt="1" ct="3" c="1" />
+    <rom n="Immies &amp; Aggies (Emag).bin" mt="2" ct="3" c="1" />
+    <rom n="Immies and Aggies.bin" mt="1" ct="3" c="1" />
+    <rom n="Indy 500 (Hack).bin" mt="1" ct="3" c="4" />
+    <rom n="Indy 500.bin" mt="1" ct="1" c="4" />
+    <rom n="Infiltrate.bin" mt="1" ct="3" c="1" />
+    <rom n="International Soccer.bin" mt="1" ct="3" c="1" />
+    <rom n="Inv 2.bin" mt="1" ct="3" c="1" />
+    <rom n="Inv.bin" mt="1" ct="3" c="1" />
+    <rom n="Invader Sprites in a Line Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Invaders From Space.bin" mt="1" ct="3" c="1" />
+    <rom n="Invisible Pac-Man.bin" mt="1" ct="3" c="1" />
+    <rom n="Jam Demo 1.bin" mt="1" ct="3" c="1" />
+    <rom n="Jam Demo 2.bin" mt="1" ct="3" c="1" />
+    <rom n="James Bond 007.bin" mt="1" ct="4" c="1" />
+    <rom n="Jammed (1.0).bin" mt="1" ct="3" c="1" />
+    <rom n="Jammed (Demo Version).bin" mt="1" ct="3" c="1" />
+    <rom n="Jawbreaker.bin" mt="2" ct="3" c="1" />
+    <rom n="JKH Text Scrolling Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="John K Harvey's Equalizer.bin" mt="1" ct="3" c="1" />
+    <rom n="Journey Escape.bin" mt="1" ct="3" c="1" />
+    <rom n="Joust.bin" mt="1" ct="8" c="1" />
+    <rom n="Jr. Pac-Man.bin" mt="1" ct="7" c="1" />
+    <rom n="Jumping Jack.bin" mt="2" ct="3" c="1" />
+    <rom n="Jungle Fever.bin" mt="1" ct="3" c="1" />
+    <rom n="Jungle Hunt.bin" mt="1" ct="8" c="1" />
+    <rom n="Jungle King.bin" mt="1" ct="8" c="1" />
+    <rom n="Junkosoft One Year Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Kabobber.bin" mt="1" ct="3" c="1" />
+    <rom n="Kaboom!.bin" mt="1" ct="1" c="2" />
+    <rom n="Kabul!.bin" mt="1" ct="1" c="2" />
+    <rom n="Kamikaze Saucers.bin" mt="1" ct="3" c="1" />
+    <rom n="Kangaroo.bin" mt="1" ct="8" c="1" />
+    <rom n="Karate.bin" mt="1" ct="3" c="1" />
+    <rom n="KC Pacman.bin" mt="1" ct="3" c="1" />
+    <rom n="Keystone Kapers (Brazil).bin" mt="1" ct="3" c="1" />
+    <rom n="Keystone Kapers.bin" mt="1" ct="3" c="1" />
+    <rom n="Keystone Kaypers (Brazil).bin" mt="1" ct="3" c="1" />
+    <rom n="King Arthur.bin" mt="2" ct="3" c="1" />
+    <rom n="King Kong.bin" mt="1" ct="3" c="1" />
+    <rom n="Klax.bin" mt="1" ct="6" c="1" />
+    <rom n="Knight on the Town.bin" mt="1" ct="3" c="1" />
+    <rom n="Kool Aid Man.bin" mt="1" ct="3" c="1" />
+    <rom n="Krieg Der Sterne.bin" mt="2" ct="3" c="1" />
+    <rom n="Krull.bin" mt="1" ct="8" c="1" />
+    <rom n="Kung Fu Master.bin" mt="1" ct="8" c="1" />
+    <rom n="Kung Fu Sprite Demo 2.bin" mt="1" ct="3" c="1" />
+    <rom n="Kung Fu.bin" mt="2" ct="3" c="1" />
+    <rom n="Labyrinth.bin" mt="2" ct="3" c="1" />
+    <rom n="Lady in Wading.bin" mt="1" ct="3" c="1" />
+    <rom n="Landung in der Normandie.bin" mt="2" ct="3" c="1" />
+    <rom n="Landungskommando.bin" mt="2" ct="3" c="1" />
+    <rom n="Laser Base (a.k.a. World End).bin" mt="2" ct="3" c="1" />
+    <rom n="Laser Blast.bin" mt="1" ct="6" c="1" />
+    <rom n="Laser Gates.bin" mt="2" ct="3" c="1" />
+    <rom n="Laser Volley.bin" mt="1" ct="3" c="1" />
+    <rom n="Laseral 2600 (7 July 2002) (PAL-49).bin" mt="1" ct="3" c="1" />
+    <rom n="Laseral 2600 (7 July 2002).bin" mt="1" ct="3" c="1" />
+    <rom n="Lightbulb Lightens - The (Non Functional).bin" mt="1" ct="3" c="1" />
+    <rom n="Lilly Adventure.bin" mt="2" ct="3" c="1" />
+    <rom n="Lines Demo.bin" mt="2" ct="1" c="1" />
+    <rom n="Lochjaw.bin" mt="1" ct="3" c="1" />
+    <rom n="Lock 'N' Chase.bin" mt="1" ct="3" c="1" />
+    <rom n="London Blitz.bin" mt="1" ct="3" c="1" />
+    <rom n="Lord of the Rings-Fellowship of the Ring (Improved Engine).bin" mt="1" ct="3" c="1" />
+    <rom n="Lord of the Rings-Fellowship of the Ring.bin" mt="1" ct="3" c="1" />
+    <rom n="Lord of the Rings.bin" mt="1" ct="4" c="1" />
+    <rom n="Lost Luggage.bin" mt="1" ct="3" c="1" />
+    <rom n="M.A.D..bin" mt="1" ct="3" c="1" />
+    <rom n="M.A.S.H..bin" mt="1" ct="3" c="1" />
+    <rom n="Magicard.bin" mt="1" ct="1" c="1" />
+    <rom n="Malagai.bin" mt="1" ct="3" c="1" />
+    <rom n="Mangia'.bin" mt="1" ct="3" c="2" />
+    <rom n="Marauder.bin" mt="1" ct="3" c="1" />
+    <rom n="Marble Craze (Title Only).bin" mt="1" ct="3" c="1" />
+    <rom n="Marine Wars.bin" mt="1" ct="3" c="1" />
+    <rom n="Marineflieger.bin" mt="2" ct="3" c="1" />
+    <rom n="Mario Bros..bin" mt="1" ct="8" c="1" />
+    <rom n="Mark's Sound Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Master Builder.bin" mt="1" ct="3" c="1" />
+    <rom n="Masters of the Universe - The Power of He-Man.bin" mt="1" ct="5" c="1" />
+    <rom n="Math Gran Prix.bin" mt="1" ct="3" c="1" />
+    <rom n="Matt Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Maze Craze.bin" mt="1" ct="3" c="1" />
+    <rom n="Maze Demo 1.bin" mt="1" ct="3" c="1" />
+    <rom n="Maze Demo 2.bin" mt="1" ct="3" c="1" />
+    <rom n="McDonald's.bin" mt="1" ct="3" c="1" />
+    <rom n="Mega Force.bin" mt="1" ct="3" c="1" />
+    <rom n="Mega Funpak - Pac-Man - Planet Patrol - Skeet Shoot - Battles of Gorf.bin" mt="2" ct="6" c="1" />
+    <rom n="Mega Mania Raid.bin" mt="1" ct="3" c="1" />
+    <rom n="Megamania.bin" mt="1" ct="3" c="1" />
+    <rom n="Mein Weg.bin" mt="2" ct="3" c="1" />
+    <rom n="Merlin's Walls (Standard Edition).bin" mt="1" ct="3" c="1" />
+    <rom n="Meteor Defense.bin" mt="2" ct="3" c="1" />
+    <rom n="Midnight Magic.bin" mt="1" ct="6" c="1" />
+    <rom n="Millipede.bin" mt="1" ct="7" c="1" />
+    <rom n="Miner 2049er Vol. 2.bin" mt="2" ct="2" c="1" />
+    <rom n="Miner 2049er.bin" mt="1" ct="2" c="1" />
+    <rom n="Mines of Minos.bin" mt="1" ct="3" c="1" />
+    <rom n="Minesweeper (V.09).bin" mt="1" ct="3" c="1" />
+    <rom n="Minesweeper (V.099).bin" mt="1" ct="3" c="1" />
+    <rom n="Miniature Golf (32-in-1).bin" mt="2" ct="1" c="1" />
+    <rom n="Miniature Golf - Arcade Golf.bin" mt="1" ct="1" c="1" />
+    <rom n="Miniature Golf.bin" mt="2" ct="1" c="1" />
+    <rom n="Miss Pack Man.bin" mt="2" ct="8" c="1" />
+    <rom n="Miss Piggy's Wedding.bin" mt="1" ct="8" c="1" />
+    <rom n="Missile Command (Different Graphics).bin" mt="2" ct="3" c="1" />
+    <rom n="Missile Command.bin" mt="1" ct="3" c="1" />
+    <rom n="Missile Control (a.k.a. Raketen-Angriff).bin" mt="2" ct="3" c="1" />
+    <rom n="Missile War.bin" mt="2" ct="3" c="1" />
+    <rom n="Mission 3000 A.D..bin" mt="2" ct="3" c="1" />
+    <rom n="Mission Survive.bin" mt="2" ct="3" c="1" />
+    <rom n="Misterious Thief - A.bin" mt="1" ct="3" c="1" />
+    <rom n="Moby Blues.bin" mt="1" ct="8" c="1" />
+    <rom n="Mogul Maniac.bin" mt="1" ct="3" c="1" />
+    <rom n="Mondo Pong V1.bin" mt="1" ct="3" c="2" />
+    <rom n="Mondo Pong.bin" mt="1" ct="3" c="2" />
+    <rom n="Monster aus dem All.bin" mt="2" ct="3" c="1" />
+    <rom n="Monstercise.bin" mt="1" ct="8" c="3" />
+    <rom n="Montezuma's Revenge - Starring Panama Joe.bin" mt="1" ct="4" c="1" />
+    <rom n="Moon Patrol.bin" mt="1" ct="8" c="1" />
+    <rom n="Moonsweeper.bin" mt="1" ct="8" c="1" />
+    <rom n="Moto Laser.bin" mt="1" ct="3" c="1" />
+    <rom n="Motocross Racer - Joystick.bin" mt="1" ct="8" c="1" />
+    <rom n="Motocross Racer.bin" mt="1" ct="8" c="1" />
+    <rom n="Motocross.bin" mt="2" ct="3" c="1" />
+    <rom n="Motorodeo.bin" mt="2" ct="6" c="1" />
+    <rom n="Mountain King.bin" mt="1" ct="12" c="1" />
+    <rom n="Mountain Man (a.k.a. Winterjagt).bin" mt="2" ct="3" c="1" />
+    <rom n="Mouse Trap.bin" mt="1" ct="3" c="1" />
+    <rom n="Movable Grid Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Move a Blue Blob Demo 2.bin" mt="1" ct="3" c="1" />
+    <rom n="Move a Blue Blob Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Moving Blue Ladder Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Moving Maze Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Mr. Do!'s Castle.bin" mt="1" ct="4" c="1" />
+    <rom n="Mr. Do!.bin" mt="1" ct="8" c="1" />
+    <rom n="Mr. Postman.bin" mt="2" ct="3" c="1" />
+    <rom n="Mr. Roboto.bin" mt="1" ct="8" c="1" />
+    <rom n="Mr. T (a.k.a. Fast Eddie).bin" mt="2" ct="3" c="1" />
+    <rom n="Ms. Pac-Man.bin" mt="1" ct="8" c="1" />
+    <rom n="Multi-Sprite Game V2.1.bin" mt="1" ct="3" c="1" />
+    <rom n="Muncher.bin" mt="1" ct="3" c="1" />
+    <rom n="Music Machine.bin" mt="1" ct="3" c="2" />
+    <rom n="My Golf.bin" mt="2" ct="8" c="1" />
+    <rom n="Mystery Science Theater 2600.bin" mt="1" ct="3" c="1" />
+    <rom n="Name That Game (a.k.a. Octopus).bin" mt="2" ct="3" c="1" />
+    <rom n="Name This Game (a.k.a. Octopus).bin" mt="2" ct="3" c="1" />
+    <rom n="Night Driver.bin" mt="1" ct="1" c="2" />
+    <rom n="Night Stalker.bin" mt="2" ct="3" c="1" />
+    <rom n="Nightmare.bin" mt="2" ct="3" c="1" />
+    <rom n="No Escape!.bin" mt="1" ct="3" c="1" />
+    <rom n="NOIZ Invaders (SPIKE the Percussionist).bin" mt="1" ct="3" c="1" />
+    <rom n="Noize Maker Demo.bin" mt="1" ct="1" c="1" />
+    <rom n="Nuts.bin" mt="1" ct="3" c="1" />
+    <rom n="Obelix.bin" mt="2" ct="8" c="1" />
+    <rom n="Ocean City Defender.bin" mt="1" ct="3" c="1" />
+    <rom n="Octopus (a.k.a. Name That Game).bin" mt="2" ct="3" c="1" />
+    <rom n="Off the Wall.bin" mt="2" ct="6" c="1" />
+    <rom n="Off Your Rocker.bin" mt="1" ct="3" c="1" />
+    <rom n="Oink!.bin" mt="1" ct="3" c="1" />
+    <rom n="Okie Dokie (4K).bin" mt="2" ct="3" c="1" />
+    <rom n="Okie Dokie (Older).bin" mt="1" ct="1" c="1" />
+    <rom n="Okie Dokie.bin" mt="1" ct="1" c="1" />
+    <rom n="Omega Race JS.bin" mt="1" ct="12" c="1" />
+    <rom n="Omega Race.bin" mt="1" ct="12" c="5" />
+    <rom n="One Blue Bar Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="One on One.bin" mt="1" ct="1" c="1" />
+    <rom n="Oscar's Trash Race.bin" mt="2" ct="8" c="3" />
+    <rom n="Othello.bin" mt="1" ct="1" c="1" />
+    <rom n="Out of Control.bin" mt="1" ct="3" c="1" />
+    <rom n="Outlaw - GunSlinger.bin" mt="1" ct="1" c="1" />
+    <rom n="Overhead Adventure Demo 1.bin" mt="1" ct="3" c="1" />
+    <rom n="Overhead Adventure Demo 2.bin" mt="1" ct="3" c="1" />
+    <rom n="Overhead Adventure Demo 3.bin" mt="1" ct="3" c="1" />
+    <rom n="Overhead Adventure Demo 4.bin" mt="1" ct="3" c="1" />
+    <rom n="Overhead Adventure Demo 5.bin" mt="1" ct="3" c="1" />
+    <rom n="Overhead Adventure Demo 6.bin" mt="1" ct="3" c="1" />
+    <rom n="Oystron (V2.9).bin" mt="1" ct="3" c="1" />
+    <rom n="Oystron X.bin" mt="1" ct="3" c="1" />
+    <rom n="Pac Ghost Sprite Demo 2.bin" mt="1" ct="3" c="1" />
+    <rom n="Pac Ghost Sprite Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Pac Invaders.bin" mt="1" ct="3" c="1" />
+    <rom n="Pac Kong.bin" mt="2" ct="3" c="1" />
+    <rom n="Pac-2600.bin" mt="1" ct="8" c="1" />
+    <rom n="Pac-Law.bin" mt="1" ct="1" c="1" />
+    <rom n="Pac-Man.bin" mt="1" ct="3" c="1" />
+    <rom n="Pac-Space.bin" mt="1" ct="3" c="1" />
+    <rom n="Panda Chase.bin" mt="1" ct="3" c="1" />
+    <rom n="Parachute.bin" mt="2" ct="3" c="1" />
+    <rom n="PC Invaders.bin" mt="1" ct="3" c="1" />
+    <rom n="PCMSG 2.0.bin" mt="1" ct="3" c="1" />
+    <rom n="PCMSG 2.2.bin" mt="1" ct="3" c="1" />
+    <rom n="PCMSG 2.3.bin" mt="1" ct="3" c="1" />
+    <rom n="PCMSG 2.4.bin" mt="1" ct="3" c="1" />
+    <rom n="PCMSG 2.5.bin" mt="1" ct="3" c="1" />
+    <rom n="PCMSG 2.6 (Oystron Pre-release demo).bin" mt="1" ct="3" c="1" />
+    <rom n="Peek-A-Boo.bin" mt="1" ct="3" c="1" />
+    <rom n="Pengo (1 player only).bin" mt="1" ct="8" c="1" />
+    <rom n="Pengo.bin" mt="1" ct="8" c="1" />
+    <rom n="Pepsi Invaders.bin" mt="1" ct="3" c="1" />
+    <rom n="Pete Rose Baseball.bin" mt="1" ct="6" c="1" />
+    <rom n="Peter Penguin.bin" mt="2" ct="3" c="1" />
+    <rom n="Phantom Panzer II.bin" mt="2" ct="3" c="1" />
+    <rom n="Phantom Tank.bin" mt="2" ct="3" c="1" />
+    <rom n="Phantom UFO.bin" mt="2" ct="3" c="1" />
+    <rom n="Pharaoh's Curse.bin" mt="2" ct="3" c="1" />
+    <rom n="Pharoah's Curse.bin" mt="2" ct="3" c="1" />
+    <rom n="Philly Flasher.bin" mt="1" ct="3" c="1" />
+    <rom n="Phoenix.bin" mt="1" ct="8" c="1" />
+    <rom n="Pick 'n Pile.bin" mt="2" ct="6" c="1" />
+    <rom n="Picnic.bin" mt="1" ct="3" c="1" />
+    <rom n="Piece o' Cake.bin" mt="1" ct="3" c="2" />
+    <rom n="Pigs in Space starring Miss Piggy.bin" mt="1" ct="8" c="1" />
+    <rom n="Pink Floyd.bin" mt="1" ct="3" c="1" />
+    <rom n="Pitfall 2 Plus.bin" mt="1" ct="14" c="1" />
+    <rom n="Pitfall 2.bin" mt="2" ct="14" c="1" />
+    <rom n="Pitfall II - Lost Caverns.bin" mt="1" ct="14" c="1" />
+    <rom n="Pitfall!.bin" mt="1" ct="3" c="1" />
+    <rom n="Pizza Chef.bin" mt="1" ct="3" c="1" />
+    <rom n="Planet Invaders.bin" mt="1" ct="3" c="1" />
+    <rom n="Planet of the Apes.bin" mt="1" ct="3" c="1" />
+    <rom n="Planet Patrol.bin" mt="1" ct="3" c="1" />
+    <rom n="Plaque Attack.bin" mt="1" ct="3" c="1" />
+    <rom n="Polaris.bin" mt="2" ct="2" c="1" />
+    <rom n="Pole Position.bin" mt="1" ct="8" c="1" />
+    <rom n="Polo.bin" mt="1" ct="1" c="1" />
+    <rom n="Pompeii.bin" mt="1" ct="3" c="1" />
+    <rom n="Pooyan.bin" mt="1" ct="3" c="1" />
+    <rom n="Popeye.bin" mt="1" ct="4" c="1" />
+    <rom n="Porky's.bin" mt="1" ct="8" c="1" />
+    <rom n="Pressure Cooker.bin" mt="1" ct="8" c="1" />
+    <rom n="Pressure Gauge 2 Beta.bin" mt="1" ct="3" c="1" />
+    <rom n="Pressure Gauge.bin" mt="1" ct="3" c="1" />
+    <rom n="Private Eye.bin" mt="1" ct="8" c="1" />
+    <rom n="Pro Wrestling.bin" mt="2" ct="8" c="1" />
+    <rom n="Purple Bar Demo 2.bin" mt="1" ct="3" c="1" />
+    <rom n="Purple Bar Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Purple Cross Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Puzzle.bin" mt="1" ct="1" c="1" />
+    <rom n="Puzzled World.bin" mt="2" ct="3" c="1" />
+    <rom n="Pygmy.bin" mt="2" ct="3" c="1" />
+    <rom n="Pyramid War (a.k.a. Wuestenschlacht).bin" mt="2" ct="3" c="1" />
+    <rom n="Pyramid War.bin" mt="2" ct="3" c="1" />
+    <rom n="Q-bert's Qubes.bin" mt="1" ct="4" c="1" />
+    <rom n="Q-bert.bin" mt="1" ct="3" c="1" />
+    <rom n="Qb.bin" mt="1" ct="3" c="1" />
+    <rom n="Quadrun.bin" mt="1" ct="8" c="1" />
+    <rom n="Quest (Early Version).bin" mt="1" ct="3" c="1" />
+    <rom n="Quest for Quintana Roo.bin" mt="1" ct="8" c="1" />
+    <rom n="Quick Step!.bin" mt="1" ct="3" c="1" />
+    <rom n="Racquetball.bin" mt="1" ct="3" c="1" />
+    <rom n="Rad Action Pak - Kung-Fu -Frostb -Freeway.bin" mt="2" ct="6" c="1" />
+    <rom n="Radar Lock.bin" mt="1" ct="7" c="1" />
+    <rom n="Radar.bin" mt="2" ct="3" c="1" />
+    <rom n="Radial Pong.bin" mt="1" ct="3" c="1" />
+    <rom n="Raft Rider.bin" mt="1" ct="3" c="1" />
+    <rom n="Raiders of the Lost Ark.bin" mt="1" ct="8" c="1" />
+    <rom n="Rainbow Invaders (half complete).bin" mt="1" ct="3" c="1" />
+    <rom n="Ram It.bin" mt="2" ct="3" c="1" />
+    <rom n="Rambo in Afghanistan.bin" mt="1" ct="3" c="1" />
+    <rom n="Rampage!.bin" mt="1" ct="6" c="1" />
+    <rom n="Raumpatrouille.bin" mt="2" ct="3" c="1" />
+    <rom n="Reactor.bin" mt="1" ct="3" c="1" />
+    <rom n="RealSports Baseball.bin" mt="1" ct="8" c="1" />
+    <rom n="RealSports Basketball.bin" mt="2" ct="8" c="1" />
+    <rom n="RealSports Boxing.bin" mt="1" ct="6" c="1" />
+    <rom n="RealSports Football.bin" mt="1" ct="8" c="1" />
+    <rom n="RealSports Soccer.bin" mt="2" ct="8" c="1" />
+    <rom n="RealSports Tennis.bin" mt="2" ct="8" c="1" />
+    <rom n="RealSports Volleyball.bin" mt="1" ct="3" c="1" />
+    <rom n="Red And White Checkerboard Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Red Pong Number 2 Demo 2.bin" mt="1" ct="3" c="1" />
+    <rom n="Red Pong Number 2 Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Register Twiddler Demo 2.bin" mt="1" ct="3" c="1" />
+    <rom n="Register Twiddler Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Rescue 1 Demo (This Planet Sucks proto).bin" mt="1" ct="3" c="1" />
+    <rom n="Rescue 2 Demo (This Planet Sucks proto).bin" mt="1" ct="3" c="1" />
+    <rom n="Rescue 3 Demo (This Planet Sucks proto).bin" mt="1" ct="3" c="1" />
+    <rom n="Rescue 4 Demo (This Planet Sucks proto).bin" mt="1" ct="3" c="1" />
+    <rom n="Rescue Bira Bira.bin" mt="1" ct="3" c="1" />
+    <rom n="Rescue Terra I.bin" mt="1" ct="3" c="1" />
+    <rom n="Resgate Espacial.bin" mt="1" ct="8" c="1" />
+    <rom n="Return of Mario Bros..bin" mt="1" ct="8" c="1" />
+    <rom n="Revenge of the Beefsteak Tomatoes.bin" mt="1" ct="3" c="1" />
+    <rom n="Riddle of the Sphinx.bin" mt="1" ct="3" c="1" />
+    <rom n="River Patrol.bin" mt="1" ct="2" c="1" />
+    <rom n="River Raid (Brazil).bin" mt="1" ct="3" c="1" />
+    <rom n="River Raid (Tanks).bin" mt="1" ct="3" c="1" />
+    <rom n="River Raid II (a.k.a. Katastrophen-Einsatz).bin" mt="2" ct="3" c="1" />
+    <rom n="River Raid II.bin" mt="1" ct="6" c="1" />
+    <rom n="River Raid Plus.bin" mt="1" ct="3" c="1" />
+    <rom n="River Raid.bin" mt="1" ct="6" c="1" />
+    <rom n="Road Runner.bin" mt="2" ct="6" c="1" />
+    <rom n="Robin Hood.bin" mt="1" ct="8" c="1" />
+    <rom n="Robot City (Version 0.12).bin" mt="1" ct="1" c="1" />
+    <rom n="Robot City (Version 0.18).bin" mt="1" ct="3" c="1" />
+    <rom n="Robot City (Version 0.21).bin" mt="1" ct="3" c="1" />
+    <rom n="Robot Fight (a.k.a. Space Robot).bin" mt="2" ct="3" c="1" />
+    <rom n="Robot Tank TC.bin" mt="1" ct="13" c="1" />
+    <rom n="Robot Tank.bin" mt="1" ct="13" c="1" />
+    <rom n="Roc n' Rope.bin" mt="1" ct="8" c="1" />
+    <rom n="Rodeo Champ.bin" mt="2" ct="3" c="1" />
+    <rom n="Room of Doom.bin" mt="1" ct="3" c="1" />
+    <rom n="Rotating Colors Demo 1 by Junkosoft.bin" mt="1" ct="3" c="1" />
+    <rom n="Rotating Colors Demo 2 by Junkosoft.bin" mt="1" ct="3" c="1" />
+    <rom n="RUN Platform Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Saboteur.bin" mt="1" ct="8" c="1" />
+    <rom n="SALT Diagnostics.bin" mt="1" ct="3" c="1" />
+    <rom n="Save Mary.bin" mt="1" ct="6" c="1" />
+    <rom n="Save Our Ship (unknown variation).bin" mt="2" ct="3" c="1" />
+    <rom n="Save Our Ship.bin" mt="2" ct="3" c="1" />
+    <rom n="Schiessbude.bin" mt="2" ct="3" c="1" />
+    <rom n="Schnapp die Apfeldiebe (a.k.a. Catch Time).bin" mt="2" ct="3" c="1" />
+    <rom n="Schnecke und Eichhoernchen.bin" mt="2" ct="3" c="1" />
+    <rom n="Schussel - der Polizistenschreck.bin" mt="2" ct="3" c="1" />
+    <rom n="Scroller Demo.bin" mt="1" ct="1" c="1" />
+    <rom n="Scrolling Playfield 1 by Junkosoft.bin" mt="1" ct="3" c="1" />
+    <rom n="Scrolling Playfield 2 by Junkosoft.bin" mt="1" ct="3" c="1" />
+    <rom n="Scrolling Playfield 3 by Junkosoft.bin" mt="1" ct="3" c="1" />
+    <rom n="SCSIcide (1.00 First Playable Version).bin" mt="1" ct="1" c="2" />
+    <rom n="SCSIcide (1.10).bin" mt="1" ct="1" c="2" />
+    <rom n="SCSIcide (1.20).bin" mt="1" ct="3" c="2" />
+    <rom n="SCSIcide (1.30) (CGE 2001 Release).bin" mt="1" ct="3" c="2" />
+    <rom n="SCSIcide (1.31).bin" mt="1" ct="3" c="2" />
+    <rom n="SCSIcide (1.32).bin" mt="1" ct="3" c="2" />
+    <rom n="SCSIcide (pre-release 1).bin" mt="1" ct="1" c="2" />
+    <rom n="SCSIcide (pre-release 2).bin" mt="1" ct="1" c="2" />
+    <rom n="SCSIcide (pre-release 3).bin" mt="1" ct="1" c="2" />
+    <rom n="SCSIcide (pre-release 4).bin" mt="1" ct="1" c="2" />
+    <rom n="SCSIcide (pre-release 5).bin" mt="1" ct="3" c="2" />
+    <rom n="SCSIcide (pre-release 6).bin" mt="1" ct="1" c="2" />
+    <rom n="Scuba Diver.bin" mt="1" ct="3" c="1" />
+    <rom n="Sea Hawk (a.k.a. Overkill-RVision).bin" mt="2" ct="3" c="1" />
+    <rom n="Sea Hawk.bin" mt="1" ct="3" c="1" />
+    <rom n="Sea Hunt.bin" mt="1" ct="3" c="1" />
+    <rom n="Sea Monster.bin" mt="2" ct="3" c="1" />
+    <rom n="Seaquest.bin" mt="1" ct="3" c="1" />
+    <rom n="Secret Agent.bin" mt="1" ct="3" c="1" />
+    <rom n="Secret Quest.bin" mt="1" ct="7" c="1" />
+    <rom n="See Saw.bin" mt="2" ct="3" c="1" />
+    <rom n="Sentinel.bin" mt="1" ct="6" c="7" />
+    <rom n="Sesam - Oeffne Dich (a.k.a. Open Sesame).bin" mt="2" ct="3" c="1" />
+    <rom n="Shark Attack.bin" mt="1" ct="3" c="1" />
+    <rom n="Ship Demo (V 10).bin" mt="1" ct="3" c="1" />
+    <rom n="Ship Demo (V 15).bin" mt="1" ct="3" c="1" />
+    <rom n="Ship Demo (V 1501).bin" mt="1" ct="3" c="1" />
+    <rom n="Ship Demo (V 1502).bin" mt="1" ct="3" c="1" />
+    <rom n="Ship Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Shootin' Gallery.bin" mt="1" ct="3" c="1" />
+    <rom n="Shooting Arcade.bin" mt="1" ct="6" c="1" />
+    <rom n="Shuttle Orbiter.bin" mt="1" ct="3" c="1" />
+    <rom n="Sinistar.bin" mt="1" ct="8" c="1" />
+    <rom n="Sir Lancelot.bin" mt="1" ct="8" c="1" />
+    <rom n="Skate Boardin'.bin" mt="1" ct="8" c="1" />
+    <rom n="Skeet Shoot.bin" mt="1" ct="1" c="1" />
+    <rom n="Skeleton (older version 2).bin" mt="1" ct="3" c="1" />
+    <rom n="Skeleton (older version).bin" mt="1" ct="3" c="1" />
+    <rom n="Skeleton.bin" mt="1" ct="3" c="1" />
+    <rom n="Ski Hunt.bin" mt="1" ct="3" c="1" />
+    <rom n="Ski Run.bin" mt="2" ct="3" c="1" />
+    <rom n="Skiing (32-in-1).bin" mt="2" ct="1" c="1" />
+    <rom n="Skiing.bin" mt="1" ct="1" c="1" />
+    <rom n="Skindiver (a.k.a. Aquatak).bin" mt="2" ct="3" c="1" />
+    <rom n="Sky Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Sky Diver (32-in-1).bin" mt="2" ct="1" c="1" />
+    <rom n="Sky Diver (Vom Himmel durch die Hoelle).bin" mt="2" ct="3" c="1" />
+    <rom n="Sky Diver.bin" mt="1" ct="1" c="1" />
+    <rom n="Sky Jinks.bin" mt="1" ct="1" c="1" />
+    <rom n="Sky Patrol.bin" mt="1" ct="8" c="1" />
+    <rom n="Sky Skipper.bin" mt="1" ct="3" c="1" />
+    <rom n="Slot Invaders.bin" mt="1" ct="1" c="1" />
+    <rom n="Slot Machine (32-in-1).bin" mt="2" ct="1" c="1" />
+    <rom n="Slot Machine.bin" mt="1" ct="1" c="1" />
+    <rom n="Slot Racers (32-in-1).bin" mt="2" ct="1" c="1" />
+    <rom n="Slot Racers - Maze.bin" mt="1" ct="1" c="1" />
+    <rom n="Slot Racers.bin" mt="2" ct="1" c="1" />
+    <rom n="Smash Hit Pak - Frogr -Stampede -Seaqst -Boxng -Ski.bin" mt="2" ct="6" c="1" />
+    <rom n="Smurfs - Rescue in Gargamel's Castle.bin" mt="1" ct="8" c="1" />
+    <rom n="Smurfs Save the Day.bin" mt="1" ct="8" c="1" />
+    <rom n="Snail Against Squirrel.bin" mt="2" ct="3" c="1" />
+    <rom n="Sneek 'n Peek.bin" mt="2" ct="3" c="1" />
+    <rom n="Sniper (02-30-01).bin" mt="1" ct="3" c="1" />
+    <rom n="Snoopy and the Red Baron.bin" mt="1" ct="8" c="1" />
+    <rom n="Snow White.bin" mt="1" ct="8" c="1" />
+    <rom n="Solar Fox.bin" mt="1" ct="8" c="1" />
+    <rom n="Solar Storm.bin" mt="1" ct="3" c="2" />
+    <rom n="Solaris Trainer.bin" mt="1" ct="6" c="1" />
+    <rom n="Solaris.bin" mt="1" ct="6" c="1" />
+    <rom n="Sorcerer's Apprentice.bin" mt="1" ct="8" c="1" />
+    <rom n="Sorcerer.bin" mt="1" ct="3" c="1" />
+    <rom n="Sound Paddle (V1).bin" mt="1" ct="1" c="2" />
+    <rom n="Sound Paddle (V2).bin" mt="1" ct="3" c="2" />
+    <rom n="Sound X.bin" mt="1" ct="3" c="1" />
+    <rom n="Sound X6.bin" mt="1" ct="1" c="1" />
+    <rom n="Space 2002.bin" mt="1" ct="3" c="1" />
+    <rom n="Space Attack.bin" mt="1" ct="3" c="1" />
+    <rom n="Space Canyon.bin" mt="1" ct="3" c="1" />
+    <rom n="Space Cavern.bin" mt="1" ct="3" c="1" />
+    <rom n="Space Invaders 2.bin" mt="1" ct="3" c="1" />
+    <rom n="Space Invaders.bin" mt="1" ct="3" c="1" />
+    <rom n="Space Jockey (32-in-1).bin" mt="2" ct="1" c="1" />
+    <rom n="Space Jockey.bin" mt="1" ct="1" c="1" />
+    <rom n="Space Raid.bin" mt="2" ct="3" c="1" />
+    <rom n="Space Robot (a.k.a. Robot Fight).bin" mt="1" ct="3" c="1" />
+    <rom n="Space Shuttle - Journey Into Space.bin" mt="1" ct="8" c="1" />
+    <rom n="Space Treat (2002-06-10).bin" mt="1" ct="3" c="1" />
+    <rom n="Space Treat.bin" mt="1" ct="3" c="1" />
+    <rom n="Space Tunnel.bin" mt="2" ct="3" c="1" />
+    <rom n="Space War (32-in-1).bin" mt="2" ct="1" c="1" />
+    <rom n="Space War.bin" mt="1" ct="1" c="1" />
+    <rom n="Spacechase.bin" mt="1" ct="3" c="1" />
+    <rom n="SpaceMaster X-7.bin" mt="1" ct="3" c="1" />
+    <rom n="Spectrum Color Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Spice Girls Rule Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Spice Invaders.bin" mt="1" ct="3" c="1" />
+    <rom n="Spider Fighter.bin" mt="1" ct="3" c="1" />
+    <rom n="Spider Kong (a.k.a. Karate).bin" mt="2" ct="3" c="1" />
+    <rom n="Spider Maze.bin" mt="1" ct="3" c="1" />
+    <rom n="Spider-Man.bin" mt="1" ct="3" c="1" />
+    <rom n="Spiderdroid.bin" mt="1" ct="3" c="1" />
+    <rom n="Spike's Peak.bin" mt="1" ct="8" c="1" />
+    <rom n="Spitfire Attack.bin" mt="1" ct="3" c="1" />
+    <rom n="Split Screen (Ballblazer) Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Sports Action Pak - End -Hock -Fish -Drag.bin" mt="2" ct="6" c="1" />
+    <rom n="Springer.bin" mt="1" ct="2" c="1" />
+    <rom n="Sprintmaster DC.bin" mt="1" ct="7" c="4" />
+    <rom n="Sprintmaster.bin" mt="1" ct="7" c="1" />
+    <rom n="Sprite Color Demo.bin" mt="1" ct="3" c="1" />
+    <rom n="Sprite Demo 0.bin" mt="1" ct="3" c="1" />
+    <rom n="Sprite Demo 1.bin" mt="1" ct="3" c="1" />
+    <rom n="Sprite Demo 2.bin" mt="1" ct="3" c="1" />
+    <rom n="Sprite Demo 3.bin" mt="1" ct="3" c="1" />
+    <rom n="Sprite Demo 4.bin" mt="1" ct="3" c="1" />
+    <rom n="Sprite Demo 5.bin" mt="1" ct="3" c="1" />
+    <rom n="Sprite Demo 6.bin" mt="1" ct="3" c="1" />
+    <rom n="Sprite Demo 7.bin" mt="1" ct="3" c="1" />
+    <rom n="Spy Hunter.bin" mt="1" ct="8" c="1" />
+    <rom n="Spy vs. Spy.bin" mt="2" ct="3" c="1" />
+    <rom n="Squeeze Box.bin" mt="1" ct="3" c="1" />
+    <rom n="Squoosh.bin" mt="1" ct="3" c="1" />
+    <rom n="Sssnake.bin" mt="1" ct="3" c="1" />
+    <rom n="Stampede (32-in-1).bin" mt="2" ct="1" c="1" />
+    <rom n="Stampede.bin" mt="1" ct="1" c="1" />
+    <rom n="Star Fire (in development).bin" mt="1" ct="3" c="1" />
+    <rom n="Star Fire (tech demo).bin" mt="1" ct="8" c="1" />
+    <rom n="Star Fox.bin" mt="1" ct="3" c="1" />
+    <rom n="Star Gunner.bin" mt="1" ct="3" c="1" />
+    <rom n="Star Raiders.bin" mt="1" ct="8" c="1" />
+    <rom n="Star Ship.bin" mt="1" ct="1" c="1" />
+    <rom n="Star Strike.bin" mt="1" ct="3" c="1" />
+    <rom n="Star Trek - Strategic Operations Simulator.bin" mt="1" ct="8" c="1" />
+    <rom n="Star Voyager.bin" mt="1" ct="3" c="1" />
+    <rom n="Star Wars - Death Star Battle.bin" mt="1" ct="4" c="1" />
+    <rom n="Star Wars - Ewok Adventure.bin" mt="2" ct="4" c="1" />
+    <rom n="Star Wars - Jedi Arena.bin" mt="1" ct="3" c="2" />
+    <rom n="Star Wars - The Arcade Game.bin" mt="1" ct="4" c="1" />
+    <rom n="Star Wars - The Battle of Alderaan.bin" mt="1" ct="3" c="1" />
+    <rom n="Star Wars - The Empire Strikes Back.bin" mt="1" ct="3" c="1" />
+    <rom n="Stargate.bin" mt="1" ct="9" c="1" />
+    <rom n="Starmaster.bin" mt="1" ct="3" c="1" />
+    <rom n="Steeple Chase.bin" mt="2" ct="3" c="2" />
+    <rom n="Steeplechase.bin" mt="1" ct="1" c="2" />
+    <rom n="Stellar Track.bin" mt="1" ct="3" c="1" />
+    <rom n="Steroid Pitfall.bin" mt="1" ct="3" c="1" />
+    <rom n="Stopp die Gangster.bin" mt="2" ct="3" c="1" />
+    <rom n="Strahlen der Teufelsvoegel.bin" mt="2" ct="3" c="1" />
+    <rom n="Strategy X.bin" mt="2" ct="3" c="1" />
+    <rom n="Strawberry Shortcake - Musical Match-Ups.bin" mt="1" ct="3" c="1" />
+    <rom n="Strawberry Shortcake Musical Match-Ups.bin" mt="2" ct="3" c="1" />
+    <rom n="Street Racer - Speedway II (128-in-1 Junior Console) (4K).bin" mt="2" ct="3" c="2" />
+    <rom n="Street Racer - Speedway II.bin" mt="1" ct="1" c="2" />
+    <rom n="Stronghold.bin" mt="1" ct="3" c="1" />
+    <rom n="Stunt Cycle.bin" mt="1" ct="1" c="2" />
+    <rom n="Sub Rescue (Real Title Unknown).bin" mt="2" ct="3" c="1" />
+    <rom n="Sub Scan.bin" mt="1" ct="3" c="1" />
+    <rom n="Submarine Commander.bin" mt="1" ct="3" c="1" />
+    <rom n="Subterranea.bin" mt="1" ct="8" c="1" />
+    <rom n="Sucky Zepplin.bin" mt="1" ct="1" c="1" />
+    <rom n="Suicide Adventure.bin" mt="1" ct="3" c="1" />
+    <rom n="Summer Games.bin" mt="1" ct="6" c="1" />
+    <rom n="Super Action Pak - Pitf -GPrix -LaserB -Barn(1988).bin" mt="2" ct="6" c="1" />
+    <rom n="Super Baseball.bin" mt="1" ct="6" c="1" />
+    <rom n="Super Box.bin" mt="1" ct="6" c="1" />
+    <rom n="Super Breakout.bin" mt="1" ct="3" c="2" />
+    <rom n="Super Challenge Baseball.bin" mt="2" ct="3" c="1" />
+    <rom n="Super Challenge Football.bin" mt="1" ct="3" c="1" />
+    <rom n="Super Circus.bin" mt="2" ct="3" c="1" />
+    <rom n="Super Cobra.bin" mt="1" ct="4" c="1" />
+    <rom n="Super Ferrari.bin" mt="2" ct="3" c="1" />
+    <rom n="Super Football.bin" mt="1" ct="7" c="1" />
+    <rom n="Super Futebol.bin" mt="1" ct="8" c="1" />
+    <rom n="Super Hit Pak - RRaid -GPrix -Fishing -SkyJ -Chckrs.bin" mt="2" ct="6" c="1" />
+    <rom n="Super Kung-Fu.bin" mt="2" ct="8" c="1" />
+    <rom n="Super VoleyBall.bin" mt="1" ct="3" c="1" />
+    <rom n="Super-Cowboy beim Rodeo.bin" mt="2" ct="1" c="1" />
+    <rom n="SuperCharger Loader.bin" mt="1" ct="1" c="1" />
+    <rom n="Superman.bin" mt="1" ct="3" c="1" />
+    <rom n="Surf's Up.bin" mt="1" ct="8" c="1" />
+    <rom n="Surfer's Paradise - But Danger Below!.bin" mt="2" ct="3" c="1" />
+    <rom n="Surround.bin" mt="1" ct="1" c="1" />
+    <rom n="Survival Run.bin" mt="1" ct="3" c="1" />
+    <rom n="Swordfight.bin" mt="1" ct="3" c="1" />
+    <rom n="SwordQuest - Earthworld.bin" mt="1" ct="8" c="1" />
+    <rom n="SwordQuest - Fireworld.bin" mt="1" ct="8" c="1" />
+    <rom n="SwordQuest - Waterworld.bin" mt="1" ct="8" c="1" />
+    <rom n="Synthcart.bin" mt="1" ct="8" c="1" />
+    <rom n="T.F. Space Invaders.bin" mt="1" ct="3" c="1" />
+    <rom n="Tac-Scan.bin" mt="1" ct="3" c="2" />
+    <rom n="Tank Brigade.bin" mt="1" ct="3" c="1" />
+    <rom n="Tanks But No Tanks.bin" mt="1" ct="3" c="1" />
+    <rom n="Tanks DX.bin" mt="1" ct="3" c="1" />
+    <rom n="Tape Worm.bin" mt="1" ct="3" c="1" />
+    <rom n="Tapper.bin" mt="1" ct="8" c="1" />
+    <rom n="Task Force.bin" mt="1" ct="3" c="1" />
+    <rom n="Tax Avoiders.bin" mt="1" ct="8" c="1" />
+    <rom n="Tazer The Fish.bin" mt="1" ct="3" c="1" />
+    <rom n="Teddy Apple.bin" mt="2" ct="3" c="1" />
+    <rom n="Telepathy.bin" mt="1" ct="8" c="1" />
+    <rom n="Teller-Jonglieren! (a.k.a. Tanzende Teller).bin" mt="2" ct="3" c="1" />
+    <rom n="Tempest.bin" mt="1" ct="8" c="1" />
+    <rom n="Tennis.bin" mt="1" ct="1" c="1" />
+    <rom n="Tetris 2600.bin" mt="1" ct="1" c="1" />
+    <rom n="Texas Chainsaw Massacre.bin" mt="1" ct="3" c="1" />
+    <rom n="The Year 1999.bin" mt="2" ct="3" c="1" />
+    <rom n="This Planet Sucks (16K).bin" mt="1" ct="6" c="1" />
+    <rom n="This Planet Sucks.bin" mt="1" ct="3" c="1" />
+    <rom n="Threshold.bin" mt="1" ct="3" c="1" />
+    <rom n="Thrust (V1.22) (Booster Grip).bin" mt="1" ct="6" c="5" />
+    <rom n="Thunderground.bin" mt="1" ct="3" c="1" />
+    <rom n="Thwocker.bin" mt="1" ct="13" c="1" />
+    <rom n="THX-1138.bin" mt="1" ct="3" c="1" />
+    <rom n="Time Machine (a.k.a. Great Escape -Asteroid Belt).bin" mt="2" ct="3" c="1" />
+    <rom n="Time Pilot.bin" mt="1" ct="8" c="1" />
+    <rom n="Time Race 2.bin" mt="2" ct="3" c="1" />
+    <rom n="Time Race.bin" mt="2" ct="3" c="1" />
+    <rom n="Time Test Demo.bin" mt="2" ct="1" c="1" />
+    <rom n="Time Warp.bin" mt="2" ct="3" c="1" />
+    <rom n="Title Match Pro Wrestling.bin" mt="1" ct="8" c="1" />
+    <rom n="Tom Boy.bin" mt="1" ct="3" c="1" />
+    <rom n="Tom's Eierjagd.bin" mt="2" ct="3" c="1" />
+    <rom n="Tomarc the Barbarian.bin" mt="1" ct="13" c="1" />
+    <rom n="Tomcat - The F-14 Flight Simulator.bin" mt="2" ct="6" c="1" />
+    <rom n="Tooth Protectors.bin" mt="1" ct="4" c="1" />
+    <rom n="Top Gun (a.k.a. Air Patrol).bin" mt="2" ct="3" c="1" />
+    <rom n="Towering Inferno.bin" mt="1" ct="3" c="1" />
+    <rom n="TP Bug.bin" mt="1" ct="3" c="1" />
+    <rom n="Track and Field.bin" mt="1" ct="6" c="1" />
+    <rom n="Traffic.bin" mt="1" ct="3" c="1" />
+    <rom n="Treasure Below.bin" mt="2" ct="3" c="1" />
+    <rom n="Tree Hugger (12-20-2002 Pave Demo).bin" mt="1" ct="3" c="1" />
+    <rom n="Trick Shot.bin" mt="1" ct="3" c="1" />
+    <rom n="TRON - Deadly Discs.bin" mt="1" ct="3" c="1" />
+    <rom n="Tuby Bird (a.k.a. Vogel Flieh).bin" mt="2" ct="3" c="1" />
+    <rom n="Tunnel Runner.bin" mt="1" ct="12" c="1" />
+    <rom n="Turmoil.bin" mt="1" ct="3" c="1" />
+    <rom n="Tutankham.bin" mt="1" ct="4" c="1" />
+    <rom n="UFO #6.bin" mt="1" ct="3" c="1" />
+    <rom n="UFO Patrol.bin" mt="1" ct="3" c="1" />
+    <rom n="Universal Chaos.bin" mt="1" ct="3" c="1" />
+    <rom n="Up 'n Down.bin" mt="1" ct="8" c="1" />
+    <rom n="Vanguard.bin" mt="1" ct="8" c="1" />
+    <rom n="Vault Assault.bin" mt="1" ct="3" c="1" />
+    <rom n="Ventrra Invaders 2002.bin" mt="1" ct="3" c="1" />
+    <rom n="Venture 2.bin" mt="1" ct="3" c="1" />
+    <rom n="Venture.bin" mt="1" ct="3" c="1" />
+    <rom n="Video Checkers.bin" mt="1" ct="3" c="1" />
+    <rom n="Video Chess.bin" mt="1" ct="3" c="1" />
+    <rom n="Video Cube.bin" mt="1" ct="3" c="1" />
+    <rom n="Video Jogger.bin" mt="1" ct="3" c="1" />
+    <rom n="Video Life.bin" mt="1" ct="1" c="1" />
+    <rom n="Video Olympics - Pong Sports.bin" mt="1" ct="1" c="2" />
+    <rom n="Video Pinball.bin" mt="1" ct="3" c="1" />
+    <rom n="Video Reflex.bin" mt="1" ct="3" c="1" />
+    <rom n="Video Simon.bin" mt="1" ct="3" c="1" />
+    <rom n="Video Time Machine.bin" mt="1" ct="3" c="1" />
+    <rom n="Virtual Pet.bin" mt="1" ct="3" c="1" />
+    <rom n="Volleyball.bin" mt="2" ct="3" c="1" />
+    <rom n="Wabbit.bin" mt="1" ct="3" c="1" />
+    <rom n="Wachroboter Jagt Jupy (a.k.a. Hey! Stop!).bin" mt="2" ct="3" c="1" />
+    <rom n="Walker.bin" mt="2" ct="3" c="1" />
+    <rom n="Wall Ball.bin" mt="1" ct="3" c="1" />
+    <rom n="Wall Defender.bin" mt="1" ct="3" c="1" />
+    <rom n="War Of The Worlds.bin" mt="1" ct="3" c="1" />
+    <rom n="Warlords.bin" mt="1" ct="3" c="2" />
+    <rom n="Warplock.bin" mt="1" ct="3" c="1" />
+    <rom n="Warring Worms.bin" mt="1" ct="3" c="1" />
+    <rom n="Wavy Line Test.bin" mt="1" ct="3" c="1" />
+    <rom n="Weltraum Tunnel.bin" mt="2" ct="3" c="1" />
+    <rom n="Westward Ho.bin" mt="2" ct="3" c="1" />
+    <rom n="Wing War.bin" mt="2" ct="8" c="1" />
+    <rom n="Winter Games.bin" mt="1" ct="6" c="1" />
+    <rom n="Wizard of Wor.bin" mt="1" ct="3" c="1" />
+    <rom n="Wizard.bin" mt="1" ct="1" c="1" />
+    <rom n="Word Zapper.bin" mt="1" ct="3" c="1" />
+    <rom n="Worm War I.bin" mt="1" ct="3" c="1" />
+    <rom n="X-Doom V.26.bin" mt="1" ct="3" c="1" />
+    <rom n="X-Doom V.27.bin" mt="1" ct="3" c="1" />
+    <rom n="X-Man.bin" mt="1" ct="3" c="1" />
+    <rom n="Xaxyrax Road.bin" mt="1" ct="1" c="1" />
+    <rom n="Xenophobe.bin" mt="2" ct="6" c="1" />
+    <rom n="Xevious.bin" mt="1" ct="8" c="1" />
+    <rom n="Yahtzee.bin" mt="1" ct="3" c="1" />
+    <rom n="Yar vs. Yar.bin" mt="1" ct="3" c="1" />
+    <rom n="Yars' Defeat.bin" mt="1" ct="3" c="1" />
+    <rom n="Yars' Revenge.bin" mt="1" ct="3" c="1" />
+    <rom n="Yellow Submarine.bin" mt="1" ct="3" c="1" />
+    <rom n="Z-Tack 2.bin" mt="1" ct="3" c="1" />
+    <rom n="Z-Tack.bin" mt="1" ct="3" c="1" />
+    <rom n="Zaxxon.bin" mt="1" ct="8" c="1" />
+    <rom n="Zero Patrol.bin" mt="1" ct="8" c="1" />
+    <rom n="Zoo Fun.bin" mt="2" ct="3" c="1" />
+  </a2600>
+  <a7800>
+    <rom n="3D Asteroids.bin" mt="3" ct="17" c="6" />
+    <rom n="Ace of Aces.bin" mt="3" ct="21" c="6" />
+    <rom n="Alien Brigade.bin" mt="3" ct="24" c="6" />
+    <rom n="Asteroids.bin" mt="3" ct="17" c="6" />
+    <rom n="Ballblazer.bin" mt="3" ct="19" c="6" />
+    <rom n="Barnyard Blaster.bin" mt="3" ct="21" c="7" />
+    <rom n="Basketbrawl.bin" mt="3" ct="21" c="6" />
+    <rom n="Centipede.bin" mt="3" ct="17" c="6" />
+    <rom n="Choplifter!.bin" mt="3" ct="18" c="6" />
+    <rom n="Color Test.bin" mt="3" ct="16" c="6" />
+    <rom n="Commando.bin" mt="3" ct="22" c="6" />
+    <rom n="Crack'ed.bin" mt="3" ct="21" c="6" />
+    <rom n="Crossbow.bin" mt="3" ct="24" c="7" />
+    <rom n="Dark Chambers.bin" mt="3" ct="21" c="6" />
+    <rom n="Desert Falcon.bin" mt="3" ct="20" c="6" />
+    <rom n="Dig Dug.bin" mt="3" ct="17" c="6" />
+    <rom n="Donkey Kong Junior.bin" mt="3" ct="20" c="6" />
+    <rom n="Donkey Kong.bin" mt="3" ct="20" c="6" />
+    <rom n="Double Dragon.bin" mt="3" ct="28" c="6" />
+    <rom n="F-18 Hornet.bin" mt="3" ct="27" c="6" />
+    <rom n="Fatal Run.bin" mt="3" ct="21" c="6" />
+    <rom n="Fight Night.bin" mt="3" ct="21" c="6" />
+    <rom n="Food Fight.bin" mt="3" ct="18" c="6" />
+    <rom n="Galaga.bin" mt="3" ct="18" c="6" />
+    <rom n="Gato.bin" mt="3" ct="20" c="6" />
+    <rom n="Hat Trick.bin" mt="3" ct="20" c="6" />
+    <rom n="Ikari Warriors.bin" mt="3" ct="21" c="6" />
+    <rom n="Impossible Mission.bin" mt="3" ct="23" c="6" />
+    <rom n="Jinks.bin" mt="3" ct="23" c="6" />
+    <rom n="Joust.bin" mt="3" ct="18" c="6" />
+    <rom n="Karateka.bin" mt="3" ct="20" c="6" />
+    <rom n="KLAX.bin" mt="3" ct="21" c="6" />
+    <rom n="Kung-Fu Master.bin" mt="3" ct="18" c="6" />
+    <rom n="Mario Bros..bin" mt="3" ct="20" c="6" />
+    <rom n="Mat Mania Challenge.bin" mt="3" ct="21" c="6" />
+    <rom n="Mean 18 Ultimate Golf.bin" mt="3" ct="21" c="6" />
+    <rom n="Meltdown.bin" mt="3" ct="21" c="7" />
+    <rom n="Midnight Mutants.bin" mt="3" ct="21" c="6" />
+    <rom n="Motor Psycho.bin" mt="3" ct="21" c="6" />
+    <rom n="Ms. Pac-Man.bin" mt="3" ct="17" c="6" />
+    <rom n="Ninja Golf.bin" mt="3" ct="21" c="6" />
+    <rom n="One on One Basketball.bin" mt="3" ct="20" c="6" />
+    <rom n="Pete Rose Baseball.bin" mt="3" ct="18" c="6" />
+    <rom n="Pitfighter.bin" mt="3" ct="25" c="6" />
+    <rom n="Planet Smashers.bin" mt="3" ct="21" c="6" />
+    <rom n="Pole Position II.bin" mt="3" ct="18" c="6" />
+    <rom n="Rampage.bin" mt="3" ct="28" c="6" />
+    <rom n="Realsports Baseball.bin" mt="3" ct="25" c="6" />
+    <rom n="Robot Finds Kitten.bin" mt="3" ct="18" c="6" />
+    <rom n="Robotron 2084.bin" mt="3" ct="18" c="6" />
+    <rom n="Scrapyard Dog.bin" mt="3" ct="21" c="6" />
+    <rom n="Sentinel.bin" mt="3" ct="21" c="7" />
+    <rom n="Summer Games.bin" mt="3" ct="23" c="6" />
+    <rom n="Super Huey UH-IX.bin" mt="3" ct="20" c="6" />
+    <rom n="Super Skateboardin'.bin" mt="3" ct="18" c="6" />
+    <rom n="Tank Command.bin" mt="3" ct="25" c="6" />
+    <rom n="Titlematch Pro Wrestling.bin" mt="3" ct="18" c="6" />
+    <rom n="Tomcat F14.bin" mt="3" ct="18" c="6" />
+    <rom n="Touchdown Football.bin" mt="3" ct="21" c="6" />
+    <rom n="Tower Toppler.bin" mt="3" ct="26" c="6" />
+    <rom n="Water Ski.bin" mt="3" ct="25" c="6" />
+    <rom n="Winter Games.bin" mt="3" ct="23" c="6" />
+    <rom n="Xenophobe.bin" mt="3" ct="21" c="6" />
+    <rom n="Xevious.bin" mt="3" ct="18" c="6" />
+  </a7800>
+</roms>

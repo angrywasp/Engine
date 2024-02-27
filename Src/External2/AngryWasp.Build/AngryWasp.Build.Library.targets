@@ -1,0 +1,6 @@
+<Project>
+    <Import Project="$(MSBuildThisFileDirectory)AngryWasp.Build.Common.targets" />
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+    </PropertyGroup>
+</Project>

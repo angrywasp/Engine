@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <RootNamespace>SharpGLTF</RootNamespace>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="nunit" Version="4.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="GltfValidator" Version="2.0.0-dev.3.8.202311262112" />    
+    <PackageReference Include="TestAttachments.NUnit" Version="4.0.0-preview-20240102-0955" />    
+  </ItemGroup>
+
+  <ItemGroup>    
+    <ProjectReference Include="..\..\examples\SharpGLTF.Plotly\SharpGLTF.Plotly.csproj" />    
+    <ProjectReference Include="..\..\src\SharpGLTF.Toolkit\SharpGLTF.Toolkit.csproj" />
+  </ItemGroup>
+
+</Project>

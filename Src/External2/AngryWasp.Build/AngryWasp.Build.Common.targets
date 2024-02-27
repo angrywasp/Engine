@@ -1,0 +1,39 @@
+<Project>
+    <PropertyGroup Condition="$([MSBuild]::IsOSPlatform('Linux'))">
+        <RuntimeIdentifier>linux-x64</RuntimeIdentifier>
+        <DefineConstants>$(DefineConstants);LINUX;UNIX;</DefineConstants>
+    </PropertyGroup>
+    <PropertyGroup Condition="$([MSBuild]::IsOSPlatform('OSX'))">
+        <RuntimeIdentifier>osx-arm64</RuntimeIdentifier>
+        <DefineConstants>$(DefineConstants);OSX;UNIX;</DefineConstants>
+    </PropertyGroup>
+    <PropertyGroup Condition="$([MSBuild]::IsOSPlatform('Windows'))">
+        <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+        <DefineConstants>$(DefineConstants);WINDOWS;</DefineConstants>
+    </PropertyGroup>
+    <PropertyGroup>
+        <TargetFrameworks>net7.0</TargetFrameworks>
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <LangVersion>latest</LangVersion>
+        <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <GenerateFullPaths>true</GenerateFullPaths>
+        <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+        <TrimUnusedDependencies>true</TrimUnusedDependencies>
+        <AppendTargetFrameworkToOutputPath>true</AppendTargetFrameworkToOutputPath>
+        <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+        <OutputPath>$(SolutionDir)../Bin/Binaries</OutputPath>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>portable</DebugType>
+        <Optimize>false</Optimize>
+        <DefineConstants>$(DefineConstants);DEBUG;TRACE</DefineConstants>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+        <DebugSymbols>false</DebugSymbols>
+        <DebugType>none</DebugType>
+        <Optimize>true</Optimize>
+        <Obfuscate>true</Obfuscate>
+        <DefineConstants>$(DefineConstants)</DefineConstants>
+    </PropertyGroup>
+</Project>

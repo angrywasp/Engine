@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <Import Project="../External/AngryWasp.Build/AngryWasp.Build.Library.targets" />
+    <Import Project="../Engine.targets" />
+    <PropertyGroup>
+        <OutputType>Library</OutputType>
+        <DefineConstants>EDITOR;CONSOLE</DefineConstants>
+    </PropertyGroup>
+    <ItemGroup>
+        <ProjectReference Include="../Engine/Engine.Core/Engine.Core.csproj" />
+        <ProjectReference Include="../Engine/Engine.Editor/Engine.Editor.csproj" />
+        <ProjectReference Include="../Engine/Engine.Objects/Engine.Objects.csproj" />
+        <ProjectReference Include="../MonoGame/MonoGame.Framework/MonoGame.Framework.csproj" />
+        <ProjectReference Include="../External/Bepu2/BepuPhysics/BepuPhysics.csproj" />
+        <ProjectReference Include="../External/Bepu2/BepuUtilities/BepuUtilities.csproj" />
+        <ProjectReference Include="../Emulators/EmulatorCore/EmulatorCore.csproj" />
+        <ProjectReference Include="../Emulators/NES/NesEmulator/NesEmulator.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="AngryWasp.Helpers" Version="3.0.16" />
+        <PackageReference Include="AngryWasp.Logger" Version="3.0.1" />
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="../../Content/Scripts/**/*.cs" />
+    </ItemGroup>
+</Project>
