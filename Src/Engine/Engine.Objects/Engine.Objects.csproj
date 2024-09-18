@@ -8,7 +8,7 @@
         <ProjectReference Include="../../External/Bepu2/BepuUtilities/BepuUtilities.csproj" />
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="AngryWasp.Helpers" Version="3.0.16" />
-        <PackageReference Include="AngryWasp.Logger" Version="3.0.1" />
+        <PackageReference Include="AngryWasp.Helpers" Version="3.0.17" />
+        <PackageReference Include="AngryWasp.Logger" Version="3.0.2" />
     </ItemGroup>
 </Project>

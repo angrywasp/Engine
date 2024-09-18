@@ -17,8 +17,8 @@
         <ProjectReference Include="../Emulators/NES/NesEmulator/NesEmulator.csproj" />
     </ItemGroup>
     <ItemGroup>
-        <PackageReference Include="AngryWasp.Helpers" Version="3.0.16" />
-        <PackageReference Include="AngryWasp.Logger" Version="3.0.1" />
+        <PackageReference Include="AngryWasp.Helpers" Version="3.0.17" />
+        <PackageReference Include="AngryWasp.Logger" Version="3.0.2" />
     </ItemGroup>
     <ItemGroup>
         <Compile Include="../../Content/Macros/*.cs" />

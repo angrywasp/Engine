@@ -8,9 +8,9 @@
     <ProjectReference Include="../../External/SharpGLTF/src/SharpGLTF.Toolkit/SharpGLTF.Toolkit.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="AngryWasp.Cli" Version="3.0.8" />
-    <PackageReference Include="AngryWasp.Helpers" Version="3.0.16" />
-    <PackageReference Include="AngryWasp.Logger" Version="3.0.1" />
-    <PackageReference Include="AngryWasp.Cryptography" Version="3.0.10" />
+    <PackageReference Include="AngryWasp.Cli" Version="3.0.9" />
+    <PackageReference Include="AngryWasp.Helpers" Version="3.0.17" />
+    <PackageReference Include="AngryWasp.Logger" Version="3.0.2" />
+    <PackageReference Include="AngryWasp.Cryptography" Version="3.0.12" />
   </ItemGroup>
 </Project>
