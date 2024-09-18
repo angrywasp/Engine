@@ -82,10 +82,10 @@ namespace Engine.Physics.Character
     /// <summary>
     /// System that manages all the characters in a simulation. Responsible for updating movement constraints based on character goals and contact states.
     /// </summary>
-    public unsafe class CharacterControllers : IDisposable
+    public class CharacterControllers : IDisposable
     {
         /// <summary>
-        /// Gets the simulation to which this set of characters belongs.
+        /// Gets the simulation to which this set of chracters belongs.
         /// </summary>
         public Simulation Simulation { get; private set; }
         BufferPool pool;
@@ -99,7 +99,7 @@ namespace Engine.Physics.Character
         public int CharacterCount { get { return characters.Count; } }
 
         /// <summary>
-        /// Creates a character controller system.
+        /// Creates a character controller systme.
         /// </summary>
         /// <param name="pool">Pool to allocate resources from.</param>
         /// <param name="initialCharacterCapacity">Number of characters to initially allocate space for.</param>
@@ -178,7 +178,8 @@ namespace Engine.Physics.Character
         /// <returns>Reference to the allocated character.</returns>
         public ref CharacterController AllocateCharacter(BodyHandle bodyHandle)
         {
-            //Debug.Assert(bodyHandle.Value >= 0 && (bodyHandle.Value >= bodyHandleToCharacterIndex.Length || bodyHandleToCharacterIndex[bodyHandle.Value] == -1), "Cannot allocate more than one character for the same body handle.");
+            //Debug.Assert(bodyHandle.Value >= 0 && (bodyHandle.Value >= bodyHandleToCharacterIndex.Length || bodyHandleToCharacterIndex[bodyHandle.Value] == -1),
+            //  "Cannot allocate more than one character for the same body handle.");
             if (bodyHandle.Value >= bodyHandleToCharacterIndex.Length)
                 ResizeBodyHandleCapacity(System.Math.Max(bodyHandle.Value + 1, bodyHandleToCharacterIndex.Length * 2));
             var characterIndex = characters.Count;
@@ -197,7 +198,8 @@ namespace Engine.Physics.Character
         {
             //Debug.Assert(characterIndex >= 0 && characterIndex < characters.Count, "Character index must exist in the set of characters.");
             ref var character = ref characters[characterIndex];
-            //Debug.Assert(character.BodyHandle.Value >= 0 && character.BodyHandle.Value < bodyHandleToCharacterIndex.Length && bodyHandleToCharacterIndex[character.BodyHandle.Value] == characterIndex, "Character must exist in the set of characters.");
+            //Debug.Assert(character.BodyHandle.Value >= 0 && character.BodyHandle.Value < bodyHandleToCharacterIndex.Length && bodyHandleToCharacterIndex[character.BodyHandle.Value] == characterIndex,
+            //    "Character must exist in the set of characters.");
             bodyHandleToCharacterIndex[character.BodyHandle.Value] = -1;
             characters.FastRemoveAt(characterIndex);
             //If the removal moved a character, update the body handle mapping.
@@ -213,7 +215,8 @@ namespace Engine.Physics.Character
         /// <param name="bodyHandle">Body handle associated with the character to remove.</param>
         public void RemoveCharacterByBodyHandle(BodyHandle bodyHandle)
         {
-            //Debug.Assert(bodyHandle.Value >= 0 && bodyHandle.Value < bodyHandleToCharacterIndex.Length && bodyHandleToCharacterIndex[bodyHandle.Value] >= 0, "Removing a character by body handle requires that a character associated with the given body handle actually exists.");
+            //Debug.Assert(bodyHandle.Value >= 0 && bodyHandle.Value < bodyHandleToCharacterIndex.Length && bodyHandleToCharacterIndex[bodyHandle.Value] >= 0,
+            //    "Removing a character by body handle requires that a character associated with the given body handle actually exists.");
             RemoveCharacterByIndex(bodyHandleToCharacterIndex[bodyHandle.Value]);
         }
 
@@ -230,7 +233,7 @@ namespace Engine.Physics.Character
         {
             public Buffer<SupportCandidate> SupportCandidates;
 
-            public ContactCollectionWorkerCache(int maximumCharacterCount, BufferPool pool)
+            public unsafe ContactCollectionWorkerCache(int maximumCharacterCount, BufferPool pool)
             {
                 pool.Take(maximumCharacterCount, out SupportCandidates);
                 for (int i = 0; i < maximumCharacterCount; ++i)
@@ -392,7 +395,8 @@ namespace Engine.Physics.Character
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public bool TryReportContacts<TManifold>(in CollidablePair pair, ref TManifold manifold, int workerIndex, ref PairMaterialProperties materialProperties) where TManifold : struct, IContactManifold<TManifold>
         {
-            //Debug.Assert(contactCollectionWorkerCaches.Allocated && workerIndex < contactCollectionWorkerCaches.Length && contactCollectionWorkerCaches[workerIndex].SupportCandidates.Allocated, "Worker caches weren't properly allocated; did you forget to call PrepareForContacts before collision detection?");
+            //Debug.Assert(contactCollectionWorkerCaches.Allocated && workerIndex < contactCollectionWorkerCaches.Length && contactCollectionWorkerCaches[workerIndex].SupportCandidates.Allocated,
+            //    "Worker caches weren't properly allocated; did you forget to call PrepareForContacts before collision detection?");
             if (manifold.Count == 0)
                 return false;
             //It's possible for neither, one, or both collidables to be a character. Check each one, treating the other as a potential support.
@@ -410,8 +414,7 @@ namespace Engine.Physics.Character
         }
 
         Buffer<(int Start, int Count)> boundingBoxExpansionJobs;
-
-        void ExpandBoundingBoxes(int start, int count)
+        unsafe void ExpandBoundingBoxes(int start, int count)
         {
             var end = start + count;
             for (int i = start; i < end; ++i)
@@ -431,7 +434,6 @@ namespace Engine.Physics.Character
 
         int boundingBoxExpansionJobIndex;
         Action<int> expandBoundingBoxesWorker;
-
         void ExpandBoundingBoxesWorker(int workerIndex)
         {
             while (true)
@@ -486,7 +488,9 @@ namespace Engine.Physics.Character
                 }
 
                 boundingBoxExpansionJobIndex = -1;
-                threadDispatcher.DispatchWorkers(expandBoundingBoxesWorker, boundingBoxExpansionJobs.Length);
+                unsafe {
+                    threadDispatcher.DispatchWorkers(expandBoundingBoxesWorker, boundingBoxExpansionJobs.Length);
+                }
                 pool.Return(ref boundingBoxExpansionJobs);
 
             }
@@ -645,7 +649,8 @@ namespace Engine.Physics.Character
                         QuaternionEx.Transform(character.LocalUp, Simulation.Bodies.ActiveSet.DynamicsState[bodyLocation.Index].Motion.Pose.Orientation, out var up);
                         var rayDistance = Vector3.Dot(character.ViewDirection, surfaceBasis.Y);
                         var rayVelocity = Vector3.Dot(up, surfaceBasis.Y);
-                        //Debug.Assert(rayVelocity > 0, "The calibrated support normal and the character's up direction should have a positive dot product if the maximum slope is working properly. Is the maximum slope >= pi/2?");
+                        //Debug.Assert(rayVelocity > 0,
+                        //    "The calibrated support normal and the character's up direction should have a positive dot product if the maximum slope is working properly. Is the maximum slope >= pi/2?");
                         surfaceBasis.Z = up * (rayDistance / rayVelocity) - character.ViewDirection;
                         var zLengthSquared = surfaceBasis.Z.LengthSquared();
                         if (zLengthSquared > 1e-12f)
@@ -733,7 +738,6 @@ namespace Engine.Physics.Character
         int analysisJobCount;
         Buffer<AnalyzeContactsJob> jobs;
         Action<int> analyzeContactsWorker;
-
         void AnalyzeContactsWorker(int workerIndex)
         {
             int jobIndex;
@@ -782,7 +786,9 @@ namespace Engine.Physics.Character
                         previousEnd = job.ExclusiveEnd;
                     }
                     analysisJobIndex = -1;
-                    threadDispatcher.DispatchWorkers(analyzeContactsWorker, analysisJobCount);
+                    unsafe {
+                        threadDispatcher.DispatchWorkers(analyzeContactsWorker, analysisJobCount);
+                    }
                     pool.Return(ref jobs);
                 }
             }
