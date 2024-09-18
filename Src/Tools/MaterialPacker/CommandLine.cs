@@ -4,55 +4,55 @@ namespace MaterialPacker
 {
     public class CommandLine
     {
-        [CommandLineArgument("width", null, "Texture width.")]
+        [CommandLineArgument("width", "Texture width.")]
         public int? Width { get; set; }
 
-        [CommandLineArgument("height", null, "Texture height.")]
+        [CommandLineArgument("height", "Texture height.")]
         public int? Height { get; set; }
 
-        [CommandLineArgument("name", "Texture", "Output file name.")]
+        [CommandLineArgument("name", "Output file name.")]
         public string Name { get; set; }
 
-        [CommandLineArgument("output", null, "Output file path.")]
+        [CommandLineArgument("output", "Output file path.")]
         public string Output { get; set; }
 
-        [CommandLineArgument("albedo", null, "Path to the albedo texture.")]
+        [CommandLineArgument("albedo", "Path to the albedo texture.")]
         public string Albedo { get; set; }
 
-        [CommandLineArgument("alphaMask", null, "Path to the alpha mask texture.")]
+        [CommandLineArgument("alphaMask", "Path to the alpha mask texture.")]
         public string AlphaMask { get; set; }
 
-        [CommandLineArgument("normal", null, "Path to the normal texture.")]
+        [CommandLineArgument("normal", "Path to the normal texture.")]
         public string Normal { get; set; }
 
-        [CommandLineArgument("pbr", null, "Path to a pre-computed pbr texture. Use the other PBR texture options to overwrite specific channels")]
+        [CommandLineArgument("pbr", "Path to a pre-computed pbr texture. Use the other PBR texture options to overwrite specific channels")]
         public string Pbr { get; set; }
 
-        [CommandLineArgument("invertNormals", null, "Invert green channel of normal texture.")]
+        [CommandLineArgument("invertNormals", "Invert green channel of normal texture.")]
         public bool InvertNormal { get; set; }
 
-        [CommandLineArgument("emissive", null, "Path to the emissive texture.")]
+        [CommandLineArgument("emissive", "Path to the emissive texture.")]
         public string Emissive { get; set; }
 
-        [CommandLineArgument("emissiveFactor", null, "Path to the emissive intensity texture.")]
+        [CommandLineArgument("emissiveFactor", "Path to the emissive intensity texture.")]
         public string EmissiveFactor { get; set; }
 
-        [CommandLineArgument("metalness", null, "Path to the metalness texture")]
+        [CommandLineArgument("metalness", "Path to the metalness texture")]
         public string Metalness { get; set; }
 
-        [CommandLineArgument("ao", null, "Path to the ao texture")]
+        [CommandLineArgument("ao", "Path to the ao texture")]
         public string AO { get; set; }
 
-        [CommandLineArgument("roughness", null, "Path to the roughness texture")]
+        [CommandLineArgument("roughness", "Path to the roughness texture")]
         public string Roughness { get; set; }
 
-        [CommandLineArgument("displacement", null, "Path to the displacement texture")]
+        [CommandLineArgument("displacement", "Path to the displacement texture")]
         public string Displacement { get; set; }
 
-        [CommandLineArgument("mipmaps", null, "Generate mip maps?")]
+        [CommandLineArgument("mipmaps", "Generate mip maps?")]
         public bool GenerateMipMaps { get; set; }
 
-        [CommandLineArgument("exclude", "", "List of texture types to exclude from processing. options: albedo;normal;pbr;emissive")]
+        [CommandLineArgument("exclude", "List of texture types to exclude from processing. options: albedo;normal;pbr;emissive")]
         public string Excludes { get; set; }
     }
 }

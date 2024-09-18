@@ -25,5 +25,6 @@
     
     "clang-format.executable": "clang-format",
     "clang-format.language.glsl.enable": true,
-    "clang-format.language.glsl.style": "Microsoft"
+    "clang-format.language.glsl.style": "Microsoft",
+    "dotnet.defaultSolution": "disable"
 }   
