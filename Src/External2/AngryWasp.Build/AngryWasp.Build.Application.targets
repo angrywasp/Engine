@@ -1,6 +1,0 @@
-<Project>
-    <Import Project="$(MSBuildThisFileDirectory)AngryWasp.Build.Common.targets" />
-    <PropertyGroup>
-        <OutputType>Exe</OutputType>
-    </PropertyGroup>
-</Project>
